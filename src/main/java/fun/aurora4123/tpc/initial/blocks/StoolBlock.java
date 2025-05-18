@@ -16,4 +16,25 @@ public class StoolBlock extends Block {
     public StoolBlock() {
         super(Properties.of().sound(SoundType.WOOD).strength(1f,10f).noOcclusion().isRedstoneConductor((state, world, pos) -> false));
     }
+    @Override
+    public boolean propagatesSkylightDown(BlockState state, BlockGetter reader, BlockPos pos) {
+        return true;
+    }
+    @Override
+    public VoxelShape getVisualShape(BlockState state, BlockGetter reader, BlockPos pos, CollisionContext context) {
+        return Shapes.empty();
+    }
+    @Override
+    public @NotNull VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+        return Shapes.or(box(4, 0, 4, 12, 2, 12),box(7, 0, 7, 9, 15, 9),box(0,14,0,16,16,16), box(7, 13, 2, 9, 14, 14), box(2, 13, 7, 14, 14, 9));
+    }
+    @Override
+    public BlockPathTypes getBlockPathType(BlockState state, BlockGetter reader, BlockPos pos, Mob entity) {
+        return BlockPathTypes.BLOCKED;
+    }
+    @Override
+    public int getLightBlock(BlockState state, BlockGetter world, BlockPos pos) {
+        return 0;
+    }
+
 }
