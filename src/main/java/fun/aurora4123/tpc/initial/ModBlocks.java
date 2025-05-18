@@ -15,4 +15,5 @@ public class ModBlocks {
     //使用注册机注册方块
     public static RegistryObject<Block> DESK = BLOCKS.register("desk", DeskBlock::new);
     //方块需要有对应的方块物品，方块物品的注册详见MItems.java
+    public static RegistryObject<Block> STOOL = BLOCKS.register("stool", StoolBlock::new);
 }

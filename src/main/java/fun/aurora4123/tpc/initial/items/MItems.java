@@ -24,6 +24,14 @@ public class MItems {
                             ModBlocks.DESK.get(),
                             //设置属性：最大堆叠64
                             new Item.Properties().stacksTo(64)));
+    public static final RegistryObject<Item> STOOL =
+            ITEMS.register(
+                    //直接获取方块的注册名
+                    ModBlocks.STOOL.getId().getPath(),
+                    ()-> new BlockItem(
+                            ModBlocks.STOOL.get(),
+                            //设置属性：最大堆叠64
+                            new Item.Properties().stacksTo(64)));
 
 
 }

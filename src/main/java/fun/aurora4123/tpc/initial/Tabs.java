@@ -23,6 +23,7 @@ public class Tabs {
                     .displayItems((itemDisplayParameters, output) ->{
                         output.accept(MItems.CASH.get());
                         output.accept(MItems.DESK.get());
+                        output.accept(MItems.STOOL.get());
                     }).build());
 
     /**
