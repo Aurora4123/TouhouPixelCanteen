@@ -15,12 +15,19 @@ public class TouhouPixelCanteen
     public static final String MODID = "touhoupixelcanteen";
 
 
-
+    //注册物品或方块时需要用到的模型及纹理文件目录(均在resources目录的assets下)：
+    //物品模型：models/item; 方块：~/block(注意不是blocks)
+    //材质：/textures/item(或者block)
+    //方块状态：blockstates
+    //语言文件：lang/zh_cn(en_us);
     public TouhouPixelCanteen(FMLJavaModLoadingContext context)
     {
         IEventBus modEventBus = context.getModEventBus();
+        //所有物品注册到总线
         MItems.ITEMS.register(modEventBus);
+        //所有方块注册到总线
         ModBlocks.BLOCKS.register(modEventBus);
+        //注册创造模式物品栏到总线
         Tabs.register(modEventBus);
     }
 }

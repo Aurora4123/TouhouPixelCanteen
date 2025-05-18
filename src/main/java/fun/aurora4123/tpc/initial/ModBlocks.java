@@ -10,6 +10,9 @@ import net.minecraftforge.registries.RegistryObject;
 
 
 public class ModBlocks {
+    //注册机：与注册物品相同，将类型改为方块即可
     public static DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, TouhouPixelCanteen.MODID);
+    //使用注册机注册方块
     public static RegistryObject<Block> DESK = BLOCKS.register("desk", DeskBlock::new);
+    //方块需要有对应的方块物品，方块物品的注册详见MItems.java
 }

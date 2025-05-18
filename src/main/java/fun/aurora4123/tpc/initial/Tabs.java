@@ -10,16 +10,25 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 
+
 public class Tabs {
+    //注册机，创建注册类型为创造物品栏
     public static final DeferredRegister<CreativeModeTab> CREATIVE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, TouhouPixelCanteen.MODID);
-
+    //通过注册机进行注册
     public static final RegistryObject<CreativeModeTab> MAIN = CREATIVE_TABS.register("main",
+            //注册的物品栏图标所对应的物品以及物品栏本身的名称
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(MItems.CASH.get())).title(Component.translatable("creativetab.main"))
+                    //物品栏中要显示的物品
                     .displayItems((itemDisplayParameters, output) ->{
                         output.accept(MItems.CASH.get());
                         output.accept(MItems.DESK.get());
                     }).build());
+
+    /**
+     * 将内容注册到一个总线上
+     * @param bus 需要进行内容注册的总线
+     */
     public static void register(IEventBus bus) {
         CREATIVE_TABS.register(bus);
     }
