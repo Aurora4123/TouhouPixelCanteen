@@ -2,6 +2,7 @@ package fun.aurora4123.tpc.initial;
 
 import fun.aurora4123.tpc.TouhouPixelCanteen;
 import fun.aurora4123.tpc.initial.blocks.DeskBlock;
+import fun.aurora4123.tpc.initial.blocks.StoolBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.client.event.RegisterColorHandlersEvent;
 import net.minecraftforge.registries.DeferredRegister;
