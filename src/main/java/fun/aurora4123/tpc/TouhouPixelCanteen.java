@@ -1,5 +1,8 @@
-package com.example.examplemod;
+package fun.aurora4123.tpc;
 
+import fun.aurora4123.tpc.initial.ModBlocks;
+import fun.aurora4123.tpc.initial.Tabs;
+import fun.aurora4123.tpc.initial.items.MItems;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -16,6 +19,8 @@ public class TouhouPixelCanteen
     public TouhouPixelCanteen(FMLJavaModLoadingContext context)
     {
         IEventBus modEventBus = context.getModEventBus();
-
+        MItems.ITEMS.register(modEventBus);
+        ModBlocks.BLOCKS.register(modEventBus);
+        Tabs.register(modEventBus);
     }
 }
