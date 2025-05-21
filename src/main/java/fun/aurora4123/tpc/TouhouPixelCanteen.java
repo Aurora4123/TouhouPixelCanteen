@@ -34,5 +34,7 @@ public class TouhouPixelCanteen
         //ImproperUIAPI.init(TouhouPixelCanteen.MODID, TouhouPixelCanteen.class,
         //      "1.ui");
     }
-
+    public static void initGui(String scriptPath, Class<?> clazz){
+        ImproperUIAPI.init(TouhouPixelCanteen.MODID, clazz, scriptPath);
+    }
 }
