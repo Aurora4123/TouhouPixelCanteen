@@ -4,7 +4,9 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.EntityBlock;
 import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.pathfinder.BlockPathTypes;
@@ -12,8 +14,9 @@ import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
 
-public class DeskBlock extends Block {
+public class DeskBlock extends Block implements EntityBlock {
     public DeskBlock() {
         super(BlockBehaviour.Properties.of().sound(SoundType.WOOD).strength(1f,10f).noOcclusion().isRedstoneConductor((state, world, pos) -> false));
     }
@@ -39,4 +42,8 @@ public class DeskBlock extends Block {
         return 0;
     }
 
+    @Override
+    public @Nullable BlockEntity newBlockEntity(BlockPos pPos, BlockState pState) {
+        return null;
+    }
 }
