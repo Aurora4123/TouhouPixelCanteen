@@ -1,0 +1,37 @@
+div #background {
+    size: 100%
+    background-color: black
+    opacity: 0.25
+}
+
+div #main {
+    size: 150 200
+    background-color: black
+    opacity: 0.5
+    border-radius: 5
+    shadow-distance: 5
+    center: both
+
+
+div #title {
+        size: 100% 10
+        inner-text: "GuiTest"
+        text-scale: 1.0
+        text-shadow: false
+        text-color: #A783FE50
+        text-align: center
+        background-color: #00000000
+        margin-top: 10
+    }
+
+div #config {
+        size: 85% 90%
+        margin-top: 10%
+        child-align: grid
+        grid-columns: 2
+        opacity: 0
+        margin: 10%
+        margin-top: 12%
+
+        checkbox test { margin: 3; }
+        div { inner-text: "测试点击"; text-color: #A783FE50 ;height: 10; margin: 3; }
