@@ -28,6 +28,7 @@ public class MItems {
                             ModBlocks.DESK.get(),
                             //设置属性：最大堆叠64
                             new Item.Properties().stacksTo(64)));
+    //凳子
     public static final RegistryObject<Item> STOOL =
             ITEMS.register(
                     //直接获取方块的注册名
@@ -36,7 +37,20 @@ public class MItems {
                             ModBlocks.STOOL.get(),
                             //设置属性：最大堆叠64
                             new Item.Properties().stacksTo(64)));
-
+    //
+    public static final RegistryObject<Item> POTATO_AND_CARROT =
+          ITEMS.register(
+                  "cooked_potato_and_gold_carrot",
+                  () -> new Item(
+                          new Item.Properties()
+                                  .food(
+                                          new FoodProperties.Builder()
+                                                  .nutrition(11)
+                                                  .saturationMod(20.4F)
+                                                  .build()
+                                  )
+                  )
+          );
 
 //    public static final RegistryObject<Item> FOOD =
 //            ITEMS.register(

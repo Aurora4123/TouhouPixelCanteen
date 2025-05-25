@@ -24,6 +24,7 @@ public class Tabs {
                         output.accept(MItems.CASH.get());
                         output.accept(MItems.DESK.get());
                         output.accept(MItems.STOOL.get());
+                        output.accept(MItems.POTATO_AND_CARROT.get());
                     }).build());
 
     /**

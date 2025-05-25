@@ -4,5 +4,6 @@
   "creativetab.main": "TouhouPixelCanteen: Main",
   "item.touhoupixelcanteen.cash": "Cash",
   "key.category.touhoupixelcanteeen.gui": "Touhou Pixel Canteen: Gui",
-  "key.touhoupixelcanteen.openGui": "Open Iui"
+  "key.touhoupixelcanteen.openGui": "Open Iui",
+  "item.touhoupixelcanteen.cooked_potato_and_gold_carrot": "Cooked potato with gold carrot"
 }
