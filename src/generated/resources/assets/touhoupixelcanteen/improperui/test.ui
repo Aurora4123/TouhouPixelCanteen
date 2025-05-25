@@ -34,4 +34,4 @@ div #config {
         margin-top: 12%
 
         checkbox test { margin: 3; }
-        div { inner-text: "测试点击"; text-color: #A783FE50 ;height: 10; margin: 3; }
+        div { inner-text: "测试点击"; text-color: #A783FE50 ;height: 10; margin: 3; onClick: sendTestMessage}

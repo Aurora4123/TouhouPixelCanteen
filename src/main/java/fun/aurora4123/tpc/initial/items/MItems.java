@@ -2,6 +2,10 @@ package fun.aurora4123.tpc.initial.items;
 
 import fun.aurora4123.tpc.TouhouPixelCanteen;
 import fun.aurora4123.tpc.initial.ModBlocks;
+import net.minecraft.world.effect.MobEffect;
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.registries.DeferredRegister;
@@ -34,4 +38,19 @@ public class MItems {
                             new Item.Properties().stacksTo(64)));
 
 
+//    public static final RegistryObject<Item> FOOD =
+//            ITEMS.register(
+//                    "example_food",
+//                    () -> new Item(
+//                            new Item.Properties()------物品属性
+//                                    .food(------可食用
+//                                            new FoodProperties.Builder()
+//                                                    .nutrition(2)-----饱食度
+//                                                    .saturationMod(0.6F)------饱和度
+//                                                    .effect(() -> new MobEffectInstance(MobEffects.HEALTH_BOOST, 600, 0), 1.0f)------食用后的效果，可多次添加
+//                                                    .effect(() -> {...})
+//                                            .build()
+//                                    )
+//                    )
+//            )
 }

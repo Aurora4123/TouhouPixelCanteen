@@ -2,6 +2,7 @@
   "block.touhoupixelcanteen.desk": "桌子",
   "creativetab.main": "东方像素食堂",
   "item.touhoupixelcanteen.cash": "现金",
-  "block.touhoupixelcanteen.stool": "凳子"
-
+  "block.touhoupixelcanteen.stool": "凳子",
+  "key.category.touhoupixelcanteeen.gui": "东方像素食堂：test",
+  "key.touhoupixelcanteen.openGui": "打开Iui"
 }

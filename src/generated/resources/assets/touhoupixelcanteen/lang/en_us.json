@@ -2,5 +2,7 @@
   "block.touhoupixelcanteen.desk": "Desk",
   "block.touhoupixelcanteen.stool": "Stool",
   "creativetab.main": "TouhouPixelCanteen: Main",
-  "item.touhoupixelcanteen.cash": "Cash"
+  "item.touhoupixelcanteen.cash": "Cash",
+  "key.category.touhoupixelcanteeen.gui": "Touhou Pixel Canteen: Gui",
+  "key.touhoupixelcanteen.openGui": "Open Iui"
 }

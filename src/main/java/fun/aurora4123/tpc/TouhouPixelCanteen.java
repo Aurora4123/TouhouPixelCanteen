@@ -33,8 +33,10 @@ public class TouhouPixelCanteen
 
         //ImproperUIAPI.init(TouhouPixelCanteen.MODID, TouhouPixelCanteen.class,
         //      "1.ui");
+        initGui(TouhouPixelCanteen.class, "assets/touhoupixelcanteen/improperui/test.ui","1.ui");
     }
-    public static void initGui(String scriptPath, Class<?> clazz){
+    public static void initGui(Class<?> clazz,String... scriptPath){
         ImproperUIAPI.init(TouhouPixelCanteen.MODID, clazz, scriptPath);
     }
+
 }
