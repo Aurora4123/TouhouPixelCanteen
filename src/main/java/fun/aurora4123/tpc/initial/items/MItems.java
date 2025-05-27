@@ -46,7 +46,7 @@ public class MItems {
                                   .food(
                                           new FoodProperties.Builder()
                                                   .nutrition(11)
-                                                  .saturationMod(20.4F)
+                                                  .saturationMod(0.92F)
                                                   .build()
                                   )
                   )
