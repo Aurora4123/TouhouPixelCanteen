@@ -1,0 +1,13 @@
+{
+  "creativetab.main": "東方體素食堂",
+  "block.touhoupixelcanteen.desk": "案",
+  "block.touhoupixelcanteen.stool": "凳",
+  "item.touhoupixelcanteen.cash": "交子",
+  "item.touhoupixelcanteen.cooked_potato_and_gold_carrot": "洋芋及金胡蘿蔔",
+  "key.category.touhoupixelcanteeen.gui": "東方體素食堂：检试",
+  "key.touhoupixelcanteen.openGui": "打开Iui",
+  "tooltip.touhoupixelcanteen.cooked_potato_and_gold_carrot": "一金胡蘿蔔与炊洋芋，赋性约合，或自奇思之。",
+  "tooltip.touhoupixelcanteen.stool": "以板为凳，略而商也。",
+  "tooltip.touhoupixelcanteen.desk": "以板为几，足载世间奇味。",
+  "tooltip.touhoupixelcanteen.cash": "世间之交子，印一代伟人"
+}
