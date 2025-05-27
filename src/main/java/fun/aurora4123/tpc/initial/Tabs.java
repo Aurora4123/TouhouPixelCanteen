@@ -24,11 +24,6 @@ public class Tabs {
                         output.accept(MItems.CASH.get());
                         output.accept(MItems.DESK.get());
                         output.accept(MItems.STOOL.get());
-                        output.accept(MItems.POTATO_AND_CARROT.get());
-                        output.accept(MItems.EGG_WASH.get());
-                        output.accept(MItems.EGGSHELL.get());
-                        output.accept(MItems.BOILED_EGG.get());
-                        output.accept(MItems.EGG_CUSTARD.get());
                     }).build());
 
     public static final RegistryObject<CreativeModeTab> FOOD =
@@ -37,6 +32,11 @@ public class Tabs {
                             .displayItems((itemDisplayParameters, output) -> {
                                 //请在此处添加已注册的菜品
                                 //output.accept(/.../);
+                                output.accept(MItems.POTATO_AND_CARROT.get());
+                                output.accept(MItems.EGG_WASH.get());
+                                output.accept(MItems.EGGSHELL.get());
+                                output.accept(MItems.BOILED_EGG.get());
+                                output.accept(MItems.EGG_CUSTARD.get());
                             }).build());
     /**
      * 将内容注册到一个总线上
