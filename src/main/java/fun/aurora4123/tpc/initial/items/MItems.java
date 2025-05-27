@@ -37,7 +37,7 @@ public class MItems {
                             ModBlocks.STOOL.get(),
                             //设置属性：最大堆叠64
                             new Item.Properties().stacksTo(64)));
-    //
+    //金胡萝卜和烤土豆
     public static final RegistryObject<Item> POTATO_AND_CARROT =
           ITEMS.register(
                   "cooked_potato_and_gold_carrot",
@@ -51,6 +51,51 @@ public class MItems {
                                   )
                   )
           );
+    //蛋液
+    public static final RegistryObject<Item> EGG_WASH =
+            ITEMS.register(
+                    "egg_wash",
+                    () -> new Item(
+                            new Item.Properties()
+                                    .food(
+                                            new FoodProperties.Builder()
+                                                    .nutrition(2)
+                                                    .saturationMod(0.1F)
+                                                    .build()
+                                    )
+                    )
+            );
+    //水煮蛋
+    public static final RegistryObject<Item> BOILED_EGG =
+            ITEMS.register(
+                    "boilsh_egg",
+                    () -> new Item(
+                            new Item.Properties()
+                                    .food(
+                                            new FoodProperties.Builder()
+                                                    .nutrition(4)
+                                                    .saturationMod(0.3F)
+                                                    .build()
+                                    )
+                    )
+            );
+    public static final RegistryObject<Item>  EGG_CUSTARD =
+            ITEMS.register(
+                    "egg_custard",
+                    () -> new Item(
+                            new Item.Properties()
+                                    .food(
+                                            new FoodProperties.Builder()
+                                                    .nutrition(5)
+                                                    .saturationMod(0.3F)
+                                                    .build()
+                                    )
+                    )
+            );
+    //蛋壳
+    public static final RegistryObject<Item> EGGSHELL =
+            ITEMS.register("eggshell", () -> new Item(new Item.Properties().stacksTo(256)));
+
 
 //    public static final RegistryObject<Item> FOOD =
 //            ITEMS.register(

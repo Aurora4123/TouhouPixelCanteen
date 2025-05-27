@@ -4,10 +4,18 @@
   "block.touhoupixelcanteen.stool": "凳子",
   "item.touhoupixelcanteen.cash": "现金",
   "item.touhoupixelcanteen.cooked_potato_and_gold_carrot": "烤土豆与金胡萝卜",
+  "item.touhoupixelcanteen.egg_wash": "蛋液",
+  "item.touhoupixelcanteen.eggshell": "蛋壳",
+  "item.touhoupixelcanteen.boilsh_egg": "水煮蛋",
+  "item.touhoupixelcanteen.egg_custard": "蒸蛋羹",
   "key.category.touhoupixelcanteeen.gui": "东方像素食堂：test",
   "key.touhoupixelcanteen.openGui": "打开Iui",
   "tooltip.touhoupixelcanteen.cooked_potato_and_gold_carrot": "一个用金胡萝卜与烤马铃薯组合而成的食物，也许来自突然产生的小小奇思妙想。",
   "tooltip.touhoupixelcanteen.stool": "用木板制成的简单凳子，简单但也耐用。",
   "tooltip.touhoupixelcanteen.desk": "用木板制成的单脚桌子，足以承载世间美味。",
-  "tooltip.touhoupixelcanteen.cash": "来自人间的百元大钞，上面印着一位改变世界的伟人。"
+  "tooltip.touhoupixelcanteen.cash": "来自人间的百元大钞，上面印着一位改变世界的伟人。",
+  "tooltip.touhoupixelcanteen.egg_wash": "人间的常见食材，简简单单将蛋磕破就能获得这份晶莹剔透的食材。",
+  "tooltip.touhoupixelcanteen.eggshell": "磕蛋时的副产物，留着这些蛋壳，说不定有很大的作用呢？\n——为什么不试试让蛋壳变成骨粉呢？",
+  "tooltip.touhoupixelcanteen.boilsh_egg": "将鸡蛋丢进山泉水里煮熟，最简单的食材也只需要最简单的烹饪方式",
+  "tooltip.touhoupixelcanteen.egg_custard": "在人间家喻户晓的东方美食，只需要简单的将蛋液打散并蒸一段时间即可\n——为什么要加这么多水!!葱花也没加！气死我了！！"
 }

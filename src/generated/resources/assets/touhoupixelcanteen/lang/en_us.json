@@ -4,10 +4,18 @@
   "block.touhoupixelcanteen.stool": "Stool",
   "item.touhoupixelcanteen.cash": "Cash",
   "item.touhoupixelcanteen.cooked_potato_and_gold_carrot": "Cooked potato with gold carrot",
+  "item.touhoupixelcanteen.egg_wash": "Egg wash",
+  "item.touhoupixelcanteen.eggshell": "Eggshell",
+  "item.touhoupixelcanteen.boilsh_egg": "Boilsh egg",
+  "item.touhoupixelcanteen.egg_custard": "Custard egg",
   "key.category.touhoupixelcanteeen.gui": "Touhou Pixel Canteen: Gui",
   "key.touhoupixelcanteen.openGui": "Open Iui",
   "tooltip.touhoupixelcanteen.cooked_potato_and_gold_carrot":"A food made from a combination of gold carrot and cooked potatoes,this small idea may come from daily life.",
   "tooltip.touhoupixelcanteen.stool": "Made form wood plank, simple but durable.",
   "tooltip.touhoupixelcanteen.desk": "Made form wood plank, delicious dishes can be served on top.",
-  "tooltip.touhoupixelcanteen.cash": "These cash come from human world,There is a great man who changed the world printed on the cash."
+  "tooltip.touhoupixelcanteen.cash": "These cash come from human world,There is a great man who changed the world printed on the cash.",
+  "tooltip.touhoupixelcanteen.egg_wash": "This is an easily obtainable ingredient, crack the egg to get start!",
+  "tooltip.touhoupixelcanteen.eggshell": "The eggshell left behind during egg crackin.Please keep these eggshells,they are usefull!",
+  "tooltip.touhoupixelcanteen.boilsh_egg": "Throw the eggs into the spring water and cook them thoroughly, simple ingredients can be easily processed",
+  "tooltip.touhoupixelcanteen.egg_custard": "A well-known side dish in China，stir the egg mixture evenly and join water, steam in the pot for a while and it's ready to eat!\u000d——Why add so much water?"
 }

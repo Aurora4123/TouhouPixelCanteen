@@ -25,6 +25,10 @@ public class Tabs {
                         output.accept(MItems.DESK.get());
                         output.accept(MItems.STOOL.get());
                         output.accept(MItems.POTATO_AND_CARROT.get());
+                        output.accept(MItems.EGG_WASH.get());
+                        output.accept(MItems.EGGSHELL.get());
+                        output.accept(MItems.BOILED_EGG.get());
+                        output.accept(MItems.EGG_CUSTARD.get());
                     }).build());
 
     public static final RegistryObject<CreativeModeTab> FOOD =
