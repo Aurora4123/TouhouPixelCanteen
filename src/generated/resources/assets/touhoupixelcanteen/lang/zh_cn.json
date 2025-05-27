@@ -18,5 +18,22 @@
   "tooltip.touhoupixelcanteen.egg_wash": "人间的常见食材，简简单单将蛋磕破就能获得这份晶莹剔透的食材。",
   "tooltip.touhoupixelcanteen.eggshell": "磕蛋时的副产物，留着这些蛋壳，说不定有很大的作用呢？\n——为什么不试试让蛋壳变成骨粉呢？",
   "tooltip.touhoupixelcanteen.boilsh_egg": "将鸡蛋丢进山泉水里煮熟，最简单的食材也只需要最简单的烹饪方式",
-  "tooltip.touhoupixelcanteen.egg_custard": "在人间家喻户晓的东方美食，只需要简单的将蛋液打散并蒸一段时间即可\n——为什么要加这么多水!!葱花也没加！气死我了！！"
+  "tooltip.touhoupixelcanteen.egg_custard": "在人间家喻户晓的东方美食，只需要简单的将蛋液打散并蒸一段时间即可\n——为什么要加这么多水!!葱花也没加！气死我了！！",
+
+  "tooltip.farmersdelight.tomato": "颜色鲜艳的浆果，曾经还因为太鲜艳被视为“狐狸的果实”，觉得它具有剧毒，所以只用来观赏。在发现可以食用以后就开始大面积种植了。",
+  "tooltip.farmersdelight.cooking_pot": "一口可以容纳万物的煮锅。会陪伴你整个农夫生涯\ntips:如果您破坏厨锅，那么厨锅内的物品不会掉落，可以保留。",
+  "tooltip.farmersdelight.onion": "人里农田产的洋葱，较为常见。",
+
+  "tooltip.minecraft.carrot": "人里农田产的胡萝卜，较为常见。",
+  "tooltip.minecraft.kelt": "不知道从哪里流入的外来食材，较为常见。",
+  "tooltip.minecraft.potato": "随处可见的那种普通土豆。",
+  "tooltip.minecraft.pumpkin": "人里农田产的南瓜，较为常见。",
+  "tooltip.minecraft.egg": "人里供应的鸡蛋，较为常见。",
+  "tooltip.minecraft.porkchop": "人里圈养的家猪肉，较为常见。",
+  "tooltip.minecraft.beef": "人里圈养的肉牛肉，较为常见。",
+  "tooltip.minecraft.pufferfish": "高级水产品，但体内含毒素，需小心处理。",
+  "tooltip.minecraft.honey_bottle": "能从树上蜂巢采到的野生蜂蜜，较为常见。",
+  "tooltip.minecraft.salmon": "一种高度洄游海鱼，但在幻想乡的河流湖泊可见。有点儿珍贵。",
+  "tooltip.minecraft.mushroom": "从魔法森林采回来的品相良好的蘑菇，在另外一个世界它无法人工种植，非常珍贵。"
+
 }
