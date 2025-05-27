@@ -1,9 +1,10 @@
 {
-  "block.touhoupixelcanteen.desk": "桌子",
   "creativetab.main": "东方像素食堂",
-  "item.touhoupixelcanteen.cash": "现金",
+  "block.touhoupixelcanteen.desk": "桌子",
   "block.touhoupixelcanteen.stool": "凳子",
+  "item.touhoupixelcanteen.cash": "现金",
+  "item.touhoupixelcanteen.cooked_potato_and_gold_carrot": "烤土豆与金胡萝卜",
   "key.category.touhoupixelcanteeen.gui": "东方像素食堂：test",
   "key.touhoupixelcanteen.openGui": "打开Iui",
-  "item.touhoupixelcanteen.cooked_potato_and_gold_carrot": "烤土豆与金胡萝卜"
+  "tooltip.touhoupixelcanteen.cooked_potato_and_gold_carrot": "一个用金胡萝卜与烤马铃薯组合而成的食物，也许来自突然产生的小小奇思妙想。"
 }

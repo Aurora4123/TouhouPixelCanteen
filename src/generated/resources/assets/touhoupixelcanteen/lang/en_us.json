@@ -1,9 +1,10 @@
 {
+  "creativetab.main": "TouhouPixelCanteen: Main",
   "block.touhoupixelcanteen.desk": "Desk",
   "block.touhoupixelcanteen.stool": "Stool",
-  "creativetab.main": "TouhouPixelCanteen: Main",
   "item.touhoupixelcanteen.cash": "Cash",
+  "item.touhoupixelcanteen.cooked_potato_and_gold_carrot": "Cooked potato with gold carrot",
   "key.category.touhoupixelcanteeen.gui": "Touhou Pixel Canteen: Gui",
   "key.touhoupixelcanteen.openGui": "Open Iui",
-  "item.touhoupixelcanteen.cooked_potato_and_gold_carrot": "Cooked potato with gold carrot"
+  "tooltip.touhoupixelcanteen.cooked_potato_and_gold_carrot":"A food made from a combination of gold carrot and cooked potatoes,this small idea may come from daily life."
 }
