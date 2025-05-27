@@ -27,6 +27,13 @@ public class Tabs {
                         output.accept(MItems.POTATO_AND_CARROT.get());
                     }).build());
 
+    public static final RegistryObject<CreativeModeTab> FOOD =
+            CREATIVE_TABS.register("food",
+                    () -> CreativeModeTab.builder().icon(() -> new ItemStack(MItems.POTATO_AND_CARROT.get())).title(Component.translatable("creativetab.food"))
+                            .displayItems((itemDisplayParameters, output) -> {
+                                //请在此处添加已注册的菜品
+                                //output.accept(/.../);
+                            }).build());
     /**
      * 将内容注册到一个总线上
      * @param bus 需要进行内容注册的总线
