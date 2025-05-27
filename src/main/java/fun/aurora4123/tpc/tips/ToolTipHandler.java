@@ -18,6 +18,15 @@ public class ToolTipHandler {
         if(event.getItemStack().getItem() == MItems.POTATO_AND_CARROT.get()){
             event.getToolTip().add(Component.translatable("tooltip.touhoupixelcanteen.cooked_potato_and_gold_carrot"));
         }
+        if(event.getItemStack().getItem() == MItems.STOOL.get()){
+            event.getToolTip().add(Component.translatable("tooltip.touhoupixelcanteen.stool"));
+        }
+        if(event.getItemStack().getItem() == MItems.DESK.get()){
+            event.getToolTip().add(Component.translatable("tooltip.touhoupixelcanteen.desk"));
+        }
+        if(event.getItemStack().getItem() == MItems.CASH.get()){
+            event.getToolTip().add(Component.translatable("tooltip.touhoupixelcanteen.cash"));
+        }
         //请按如下格式为物品添加tooltip
 //        if(event.getItemStack().getItem() == ...){------此处为需要添加tooltip的物品
 //            event.getToolTip().add(Component.translatable("..."));------需要为物品添加的tooltip的翻译键
