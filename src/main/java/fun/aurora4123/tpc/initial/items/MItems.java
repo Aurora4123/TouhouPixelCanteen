@@ -94,8 +94,13 @@ public class MItems {
             );
     //蛋壳
     public static final RegistryObject<Item> EGGSHELL =
-            ITEMS.register("eggshell", () -> new Item(new Item.Properties().stacksTo(256)));
-
+            ITEMS.register(
+                    //直接获取方块的注册名
+                    ModBlocks.EGGSHELL.getId().getPath(),
+                    ()-> new BlockItem(
+                            ModBlocks.EGGSHELL.get(),
+                            //设置属性：最大堆叠64
+                            new Item.Properties().stacksTo(256)));
 
 //    public static final RegistryObject<Item> FOOD =
 //            ITEMS.register(
