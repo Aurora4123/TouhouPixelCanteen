@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "333",
+    " 2 ",
+    " 1 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:stripped_oak_log"
+    },
+    "2": {
+      "item": "minecraft:oak_fence"
+    },
+    "3": {
+      "item": "minecraft:stripped_oak_wood"
+    }
+  },
+  "result": {
+    "item": "touhoupixelcanteen:desk",
+    "count": 3
+  }
+}

@@ -22,6 +22,7 @@ public class Tabs {
                     //物品栏中要显示的物品
                     .displayItems((itemDisplayParameters, output) ->{
                         output.accept(MItems.CASH.get());
+                        output.accept(MItems.UNPROCESS_DISH.get());
                         output.accept(MItems.DISH.get());
                         output.accept(MItems.DESK.get());
                         output.accept(MItems.STOOL.get());

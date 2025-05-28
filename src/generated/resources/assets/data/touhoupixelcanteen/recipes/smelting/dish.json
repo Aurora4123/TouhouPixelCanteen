@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "touhoupixelcanteen:unprocess_dish"
+  },
+  "result": "touhoupixelcanteen:dish",
+  "experience": 0.35,
+  "cookingtime": 200
+}

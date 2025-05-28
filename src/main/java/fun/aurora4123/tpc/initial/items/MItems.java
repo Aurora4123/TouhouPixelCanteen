@@ -45,6 +45,8 @@ public class MItems {
                             ModBlocks.DISH.get(),
                             //设置属性：最大堆叠64
                             new Item.Properties().stacksTo(64)));
+    public static final RegistryObject<Item> UNPROCESS_DISH =
+            ITEMS.register("unprocess_dish", () -> new Item(new Item.Properties().stacksTo(64)));
 
     //金胡萝卜和烤土豆
     public static final RegistryObject<Item> POTATO_AND_CARROT =

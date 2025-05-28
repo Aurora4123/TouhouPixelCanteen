@@ -1,0 +1,27 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:egg"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  },
+  "result": [
+    {
+      "item": "touhoupixelcanteen:egg_wash",
+      "count": 1
+    },
+    {
+      "item": "touhoupixelcanteen:eggshell",
+      "count": 1,
+      "chance": 1
+    },
+    {
+      "item": "touhoupixelcanteen:eggshell",
+      "count": 1,
+      "chance": 0.5
+    }
+  ]
+}
