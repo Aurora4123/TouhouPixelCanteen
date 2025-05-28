@@ -3,11 +3,12 @@
   "creativetab.food": "東方體素食堂：餐",
   "block.touhoupixelcanteen.desk": "案",
   "block.touhoupixelcanteen.stool": "凳",
-  "block.touhoupixelcanteen.eggshell": "卵壳",
+  "block.touhoupixelcanteen.eggshell": "卵殼",
   "item.touhoupixelcanteen.cash": "交子",
   "item.touhoupixelcanteen.cooked_potato_and_gold_carrot": "洋芋及金胡蘿蔔",
   "item.touhoupixelcanteen.egg_wash": "卵液",
   "item.touhoupixelcanteen.boilsh_egg": "烹卵",
+  "item.touhoupixelcanteen.boilsh_egg_peeled": "無殼烹卵",
   "item.touhoupixelcanteen.egg_custard": "卵羹",
   "key.category.touhoupixelcanteeen.gui": "東方體素食堂：检试",
   "key.touhoupixelcanteen.openGui": "打开Iui",
@@ -18,6 +19,8 @@
   "tooltip.touhoupixelcanteen.egg_wash": "人间常见之，击卵得其液，其相莹彻",
   "tooltip.touhoupixelcanteen.eggshell": "击卵得此物，若愿收之，可作他用乎",
   "tooltip.touhoupixelcanteen.boilsh_egg": "取卵入釜，以山泉烹之。易得之食，可宽于烹。",
+  "tooltip.touhoupixelcanteen.boilsh_egg_peeled": "去殼得之，滑嫩于彼，良於與殼共食，",
   "tooltip.touhoupixelcanteen.egg_custard": "此肴，人皆知之。"
+
 
 }

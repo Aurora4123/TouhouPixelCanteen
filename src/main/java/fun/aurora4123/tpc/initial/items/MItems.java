@@ -79,6 +79,20 @@ public class MItems {
                                     )
                     )
             );
+    //去皮水煮蛋
+    public static final RegistryObject<Item> BOILED_EGG_PEELED =
+            ITEMS.register(
+                    "boilsh_egg_peeled",
+                    () -> new Item(
+                            new Item.Properties()
+                                    .food(
+                                            new FoodProperties.Builder()
+                                                    .nutrition(4)
+                                                    .saturationMod(0.3F)
+                                                    .build()
+                                    )
+                    )
+            );
     public static final RegistryObject<Item>  EGG_CUSTARD =
             ITEMS.register(
                     "egg_custard",

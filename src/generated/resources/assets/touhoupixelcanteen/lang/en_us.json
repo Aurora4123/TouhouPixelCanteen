@@ -8,6 +8,7 @@
   "item.touhoupixelcanteen.cooked_potato_and_gold_carrot": "Cooked potato with gold carrot",
   "item.touhoupixelcanteen.egg_wash": "Egg wash",
   "item.touhoupixelcanteen.boilsh_egg": "Boilsh egg",
+  "item.touhoupixelcanteen.boilsh_egg_peeled": "Peeled boilsh egg",
   "item.touhoupixelcanteen.egg_custard": "Custard egg",
   "key.category.touhoupixelcanteeen.gui": "Touhou Pixel Canteen: Gui",
   "key.touhoupixelcanteen.openGui": "Open Iui",
@@ -18,7 +19,8 @@
   "tooltip.touhoupixelcanteen.egg_wash": "This is an easily obtainable ingredient, crack the egg to get start!",
   "tooltip.touhoupixelcanteen.eggshell": "The eggshell left behind during egg crackin.Please keep these eggshells,they are usefull!",
   "tooltip.touhoupixelcanteen.boilsh_egg": "Throw the eggs into the spring water and cook them thoroughly, simple ingredients can be easily processed",
-  "tooltip.touhoupixelcanteen.egg_custard": "A well-known side dish in China，stir the egg mixture evenly and join water, steam in the pot for a while and it's ready to eat!\u000d——Why add so much water?",
+  "tooltip.touhoupixelcanteen.boilsh_egg_peeled": "Boilsh egg without eggshells, this is much better than eating with a shell",
+  "tooltip.touhoupixelcanteen.egg_custard": "A well-known side dish in China，stir the egg mixture evenly and join water, steam in the pot for a while and it's ready to eat!\n——Why add so much water?",
 
   "tooltip.farmersdelight.tomato": "颜色鲜艳的浆果，曾经还因为太鲜艳被视为“狐狸的果实”，觉得它具有剧毒，所以只用来观赏。在发现可以食用以后就开始大面积种植了。",
   "tooltip.farmersdelight.cooking_pot": "一口可以容纳万物的煮锅。会陪伴你整个农夫生涯\ntips:如果您破坏厨锅，那么厨锅内的物品不会掉落，可以保留。",
