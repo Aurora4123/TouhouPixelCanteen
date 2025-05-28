@@ -5,6 +5,7 @@
   "block.touhoupixelcanteen.stool": "Stool",
   "block.touhoupixelcanteen.eggshell": "Eggshell",
   "block.touhoupixelcanteen.dish": "Dish",
+  "block.touhoupixelcanteen.scrambled_eggs_with_tomato": "Scrambled eggs with tomatoes",
   "item.touhoupixelcanteen.cash": "Cash",
   "item.touhoupixelcanteen.unprocess_dish": "Unprocess dish",
   "item.touhoupixelcanteen.cooked_potato_and_gold_carrot": "Cooked potato with gold carrot",
@@ -24,7 +25,8 @@
   "tooltip.touhoupixelcanteen.eggshell": "The eggshell left behind during egg crackin.Please keep these eggshells,they are usefull!",
   "tooltip.touhoupixelcanteen.boilsh_egg": "Throw the eggs into the spring water and cook them thoroughly, simple ingredients can be easily processed",
   "tooltip.touhoupixelcanteen.boilsh_egg_peeled": "Boilsh egg without eggshells, this is much better than eating with a shell",
-  "tooltip.touhoupixelcanteen.egg_custard": "A well-known side dish in China，stir the egg mixture evenly and join water, steam in the pot for a while and it's ready to eat!\n——Why add so much water?",
+  "tooltip.touhoupixelcanteen.egg_custard": "A well-known side dish in China, stir the egg mixture evenly and join water, steam in the pot for a while and it's ready to eat!\n——Why add so much water?",
+  "tooltip.touhoupixelcanteen.scrambled_eggs_with_tomato": "A well-known side dish in China, It is also a creation where many people try cooking for the first time",
 
   "tooltip.farmersdelight.tomato": "颜色鲜艳的浆果，曾经还因为太鲜艳被视为“狐狸的果实”，觉得它具有剧毒，所以只用来观赏。在发现可以食用以后就开始大面积种植了。",
   "tooltip.farmersdelight.cooking_pot": "一口可以容纳万物的煮锅。会陪伴你整个农夫生涯\ntips:如果您破坏厨锅，那么厨锅内的物品不会掉落，可以保留。",

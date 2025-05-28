@@ -1,10 +1,7 @@
 package fun.aurora4123.tpc.initial;
 
 import fun.aurora4123.tpc.TouhouPixelCanteen;
-import fun.aurora4123.tpc.initial.blocks.DeskBlock;
-import fun.aurora4123.tpc.initial.blocks.DishBlock;
-import fun.aurora4123.tpc.initial.blocks.EggShell;
-import fun.aurora4123.tpc.initial.blocks.StoolBlock;
+import fun.aurora4123.tpc.initial.blocks.*;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -20,5 +17,5 @@ public class ModBlocks {
     public static RegistryObject<Block> STOOL = BLOCKS.register("stool", StoolBlock::new);
     public static RegistryObject<Block> EGGSHELL = BLOCKS.register("eggshell", EggShell::new);
     public static RegistryObject<Block> DISH = BLOCKS.register("dish", DishBlock::new);
-
+    public static RegistryObject<Block> SCRAMBLED_EGGS_WITH_TOMATO = BLOCKS.register("scrambled_eggs_with_tomato", UniversalDish::new);
 }

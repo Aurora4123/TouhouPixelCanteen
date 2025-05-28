@@ -5,6 +5,7 @@
   "block.touhoupixelcanteen.stool": "凳子",
   "block.touhoupixelcanteen.eggshell": "蛋壳",
   "block.touhoupixelcanteen.dish": "盘子",
+  "block.touhoupixelcanteen.scrambled_eggs_with_tomato": "番茄炒蛋",
   "item.touhoupixelcanteen.cash": "现金",
   "item.touhoupixelcanteen.unprocess_dish": "未完成的盘子",
   "item.touhoupixelcanteen.cooked_potato_and_gold_carrot": "烤土豆与金胡萝卜",
@@ -24,7 +25,8 @@
   "tooltip.touhoupixelcanteen.eggshell": "磕蛋时的副产物，留着这些蛋壳，说不定有很大的作用呢？\n——为什么不试试让蛋壳变成骨粉呢？",
   "tooltip.touhoupixelcanteen.boilsh_egg": "将鸡蛋丢进山泉水里煮熟，最简单的食材也只需要最简单的烹饪方式",
   "tooltip.touhoupixelcanteen.boilsh_egg_peeled": "煮熟后砸碎蛋壳获得了这份滑嫩的食材，不会真的有人吃带壳的鸡蛋吧？",
-  "tooltip.touhoupixelcanteen.egg_custard": "在人间家喻户晓的东方美食，只需要简单的将蛋液打散并蒸一段时间即可\n——为什么要加这么多水!!葱花也没加！气死我了！！",
+  "tooltip.touhoupixelcanteen.egg_custard": "在人间家喻户晓的东方美食，只需要简单的将蛋液打散并蒸一段时间即可\n——为什么要加这么多水！！葱花也没加！气死我了！！",
+  "tooltip.touhoupixelcanteen.scrambled_eggs_with_tomato": "在人间家喻户晓的东方美食，也是很多人初次尝试炒菜的作品。",
 
   "tooltip.farmersdelight.tomato": "颜色鲜艳的浆果，曾经还因为太鲜艳被视为“狐狸的果实”，觉得它具有剧毒，所以只用来观赏。在发现可以食用以后就开始大面积种植了。",
   "tooltip.farmersdelight.cooking_pot": "一口可以容纳万物的煮锅。会陪伴你整个农夫生涯\ntips:如果您破坏厨锅，那么厨锅内的物品不会掉落，可以保留。",

@@ -1,0 +1,122 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "touhoupixelcanteen:block/dish",
+		"1": "touhoupixelcanteen:block/scrambled_eggs_with_tomato",
+		"particle": "touhoupixelcanteen:block/dish"
+	},
+	"elements": [
+		{
+			"name": "碗底",
+			"from": [4, 0, 4],
+			"to": [12, 1, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, 0, 4]},
+			"faces": {
+				"north": {"uv": [8, 0, 16, 1], "texture": "#0"},
+				"east": {"uv": [8, 1, 16, 2], "texture": "#0"},
+				"south": {"uv": [8, 2, 16, 3], "texture": "#0"},
+				"west": {"uv": [8, 3, 16, 4], "texture": "#0"},
+				"up": {"uv": [8, 8, 0, 0], "texture": "#0"},
+				"down": {"uv": [8, 8, 0, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "碗边（东西）",
+			"from": [3, 1, 4],
+			"to": [4, 2, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [3, 1, 4]},
+			"faces": {
+				"north": {"uv": [8, 0, 9, 1], "texture": "#0"},
+				"east": {"uv": [8, 0, 16, 1], "texture": "#0"},
+				"south": {"uv": [8, 0, 9, 1], "texture": "#0"},
+				"west": {"uv": [8, 0, 16, 1], "texture": "#0"},
+				"up": {"uv": [8, 8, 9, 16], "texture": "#0"},
+				"down": {"uv": [9, 8, 10, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "碗边（东西)",
+			"from": [12, 1, 4],
+			"to": [13, 2, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [12, 1, 4]},
+			"faces": {
+				"north": {"uv": [8, 0, 9, 1], "texture": "#0"},
+				"east": {"uv": [8, 0, 16, 1], "texture": "#0"},
+				"south": {"uv": [8, 0, 9, 1], "texture": "#0"},
+				"west": {"uv": [8, 0, 16, 1], "texture": "#0"},
+				"up": {"uv": [8, 8, 9, 16], "texture": "#0"},
+				"down": {"uv": [9, 8, 10, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "碗边（南北）",
+			"from": [4, 1, 3],
+			"to": [12, 2, 4],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, 1, 4]},
+			"faces": {
+				"north": {"uv": [8, 0, 16, 1], "texture": "#0"},
+				"east": {"uv": [8, 0, 9, 1], "texture": "#0"},
+				"south": {"uv": [8, 0, 16, 1], "texture": "#0"},
+				"west": {"uv": [8, 0, 9, 1], "texture": "#0"},
+				"up": {"uv": [8, 8, 9, 16], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [9, 8, 10, 16], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"name": "碗边（南北）",
+			"from": [4, 1, 12],
+			"to": [12, 2, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, 1, 13]},
+			"faces": {
+				"north": {"uv": [8, 0, 16, 1], "texture": "#0"},
+				"east": {"uv": [8, 0, 9, 1], "texture": "#0"},
+				"south": {"uv": [8, 0, 16, 1], "texture": "#0"},
+				"west": {"uv": [8, 0, 9, 1], "texture": "#0"},
+				"up": {"uv": [8, 8, 9, 16], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [9, 8, 10, 16], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"name": "菜品主体",
+			"from": [4, 1, 4],
+			"to": [12, 2, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, 1, 4]},
+			"faces": {
+				"north": {"uv": [0, 0, 8, 1], "texture": "#missing"},
+				"east": {"uv": [0, 0, 8, 1], "texture": "#missing"},
+				"south": {"uv": [0, 0, 8, 1], "texture": "#missing"},
+				"west": {"uv": [0, 0, 8, 1], "texture": "#missing"},
+				"up": {"uv": [8, 8, 16, 16], "texture": "#1"},
+				"down": {"uv": [0, 0, 8, 8], "texture": "#missing"}
+			}
+		},
+		{
+			"name": "菜品组件1",
+			"from": [5, 2, 8],
+			"to": [7, 3, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5, 2, 8]},
+			"faces": {
+				"north": {"uv": [2, 0, 4, 1], "texture": "#1"},
+				"east": {"uv": [2, 1, 4, 2], "texture": "#1"},
+				"south": {"uv": [2, 2, 4, 3], "texture": "#1"},
+				"west": {"uv": [2, 3, 4, 4], "texture": "#1"},
+				"up": {"uv": [2, 2, 0, 0], "texture": "#1"},
+				"down": {"uv": [2, 2, 0, 4], "texture": "#1"}
+			}
+		},
+		{
+			"name": "菜品组件2",
+			"from": [9, 2, 6],
+			"to": [10, 3, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 2, 6]},
+			"faces": {
+				"north": {"uv": [0, 0, 1, 1], "texture": "#1"},
+				"east": {"uv": [0, 0, 2, 1], "texture": "#1"},
+				"south": {"uv": [0, 0, 1, 1], "texture": "#1"},
+				"west": {"uv": [0, 0, 2, 1], "texture": "#1"},
+				"up": {"uv": [0, 0, 1, 2], "texture": "#1"},
+				"down": {"uv": [0, 0, 1, 2], "texture": "#missing"}
+			}
+		}
+	]
+}
