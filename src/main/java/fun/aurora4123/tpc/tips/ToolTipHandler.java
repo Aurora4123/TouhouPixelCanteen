@@ -28,6 +28,9 @@ public class ToolTipHandler {
         if(event.getItemStack().getItem() == MItems.DESK.get()){
             event.getToolTip().add(Component.translatable("tooltip.touhoupixelcanteen.desk"));
         }
+        if(event.getItemStack().getItem() == MItems.DISH.get()){
+            event.getToolTip().add(Component.translatable("tooltip.touhoupixelcanteen.dish"));
+        }
         if(event.getItemStack().getItem() == MItems.CASH.get()){
             event.getToolTip().add(Component.translatable("tooltip.touhoupixelcanteen.cash"));
         }

@@ -37,6 +37,15 @@ public class MItems {
                             ModBlocks.STOOL.get(),
                             //设置属性：最大堆叠64
                             new Item.Properties().stacksTo(64)));
+    public static final RegistryObject<Item> DISH =
+            ITEMS.register(
+                    //直接获取方块的注册名
+                    ModBlocks.DISH.getId().getPath(),
+                    ()-> new BlockItem(
+                            ModBlocks.DISH.get(),
+                            //设置属性：最大堆叠64
+                            new Item.Properties().stacksTo(64)));
+
     //金胡萝卜和烤土豆
     public static final RegistryObject<Item> POTATO_AND_CARROT =
           ITEMS.register(

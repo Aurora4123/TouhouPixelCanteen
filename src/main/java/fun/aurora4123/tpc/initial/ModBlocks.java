@@ -2,6 +2,7 @@ package fun.aurora4123.tpc.initial;
 
 import fun.aurora4123.tpc.TouhouPixelCanteen;
 import fun.aurora4123.tpc.initial.blocks.DeskBlock;
+import fun.aurora4123.tpc.initial.blocks.DishBlock;
 import fun.aurora4123.tpc.initial.blocks.EggShell;
 import fun.aurora4123.tpc.initial.blocks.StoolBlock;
 import net.minecraft.world.level.block.Block;
@@ -18,5 +19,6 @@ public class ModBlocks {
     //方块需要有对应的方块物品，方块物品的注册详见MItems.java
     public static RegistryObject<Block> STOOL = BLOCKS.register("stool", StoolBlock::new);
     public static RegistryObject<Block> EGGSHELL = BLOCKS.register("eggshell", EggShell::new);
+    public static RegistryObject<Block> DISH = BLOCKS.register("dish", DishBlock::new);
 
 }
