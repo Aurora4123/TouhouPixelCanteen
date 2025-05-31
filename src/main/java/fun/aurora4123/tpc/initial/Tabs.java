@@ -30,7 +30,7 @@ public class Tabs {
 
     public static final RegistryObject<CreativeModeTab> FOOD =
             CREATIVE_TABS.register("food",
-                    () -> CreativeModeTab.builder().icon(() -> new ItemStack(MItems.POTATO_AND_CARROT.get())).title(Component.translatable("creativetab.food"))
+                    () -> CreativeModeTab.builder().icon(() -> new ItemStack(MItems.RICE_WITH_EGG.get())).title(Component.translatable("creativetab.food"))
                             .displayItems((itemDisplayParameters, output) -> {
                                 //请在此处添加已注册的菜品
                                 //output.accept(/.../);
