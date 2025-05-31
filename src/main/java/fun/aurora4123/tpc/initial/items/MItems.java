@@ -122,11 +122,14 @@ public class MItems {
                                     )
                     )
             );
-    public static final RegistryObject<Item>  EGG_CUSTARD =
+    public static final RegistryObject<Item> EGG_CUSTARD =
             ITEMS.register(
-                    "egg_custard",
-                    () -> new Item(
+                    //直接获取方块的注册名
+                    ModBlocks.EGG_CUSTARD.getId().getPath(),
+                    ()-> new BlockItem(
+                            ModBlocks.EGG_CUSTARD.get(),
                             new Item.Properties()
+                                    .stacksTo(16)
                                     .food(
                                             new FoodProperties.Builder()
                                                     .nutrition(5)
