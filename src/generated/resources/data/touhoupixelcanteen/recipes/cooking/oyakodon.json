@@ -1,0 +1,23 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "item": "farmersdelight:cooked_rice"
+    },
+    {
+      "item": "touhoupixelcanteen:egg_wash"
+    },
+    {
+      "item": "farmersdelight:onion"
+    }
+  ],
+  "result": {
+    "item": "touhoupixelcanteen:oyakodon"
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  },
+
+  "cookingtime": 400
+}

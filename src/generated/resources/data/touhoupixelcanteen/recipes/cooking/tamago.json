@@ -1,0 +1,23 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "item": "touhoupixelcanteen:egg_wash"
+    },
+    {
+      "item": "touhoupixelcanteen:egg_wash"
+    },
+    {
+      "item": "touhoupixelcanteen:egg_wash"
+    }
+  ],
+  "result": {
+    "item": "touhoupixelcanteen:tamago"
+  },
+  "container": {
+    "item": "touhoupixelcanteen:dish"
+  },
+
+  "cookingtime": 400
+}

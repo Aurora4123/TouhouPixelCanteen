@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "item": "farmersdelight:cooked_rice"
+    },
+    {
+      "item": "touhoupixelcanteen:egg_wash"
+    }
+  ],
+  "result": {
+    "item": "touhoupixelcanteen:rice_with_egg"
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  },
+
+  "cookingtime": 200
+}

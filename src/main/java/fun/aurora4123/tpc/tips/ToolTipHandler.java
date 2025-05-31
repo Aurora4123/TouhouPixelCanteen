@@ -65,7 +65,7 @@ public class ToolTipHandler {
             event.getToolTip().add(Component.translatable("tooltip.touhoupixelcanteen.oyakodon"));
         }
         if(event.getItemStack().getItem() == MItems.SEAWEED_AND_EGG_SOUP.get()){
-            event.getToolTip().add(Component.translatable("tooltip.touhoupixelcanteen.swaweed_and_egg_soup"));
+            event.getToolTip().add(Component.translatable("tooltip.touhoupixelcanteen.seaweed_and_egg_soup"));
         }
         if(event.getItemStack().getItem() == MItems.TAMAGO.get()){
             event.getToolTip().add(Component.translatable("tooltip.touhoupixelcanteen.tamago"));

@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "item": "minecraft:dried_kelp"
+    },
+    {
+      "item": "touhoupixelcanteen:egg_wash"
+    }
+  ],
+  "result": {
+    "item": "touhoupixelcanteen:seaweed_and_egg_soup"
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  },
+
+  "cookingtime": 200
+}
