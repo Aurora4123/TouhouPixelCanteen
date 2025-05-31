@@ -122,6 +122,20 @@ public class MItems {
                                     )
                     )
             );
+    //切开的去皮水煮蛋
+    public static final RegistryObject<Item> BOILED_EGG_PEELED_HALF =
+            ITEMS.register(
+                    "boilsh_egg_peeled_half",
+                    () -> new Item(
+                            new Item.Properties()
+                                    .food(
+                                            new FoodProperties.Builder()
+                                                    .nutrition(2)
+                                                    .saturationMod(0.2F)
+                                                    .build()
+                                    )
+                    )
+            );
     //第一份喜晋升的可放置食物
     public static final RegistryObject<Item> EGG_CUSTARD =
             ITEMS.register(

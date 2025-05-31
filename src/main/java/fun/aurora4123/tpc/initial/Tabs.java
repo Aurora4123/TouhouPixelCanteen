@@ -39,6 +39,7 @@ public class Tabs {
                                 output.accept(MItems.EGGSHELL.get());
                                 output.accept(MItems.BOILED_EGG.get());
                                 output.accept(MItems.BOILED_EGG_PEELED.get());
+                                output.accept(MItems.BOILED_EGG_PEELED_HALF.get());
                                 output.accept(MItems.EGG_CUSTARD.get());
                                 output.accept(MItems.RICE_WITH_EGG.get());
                                 output.accept(MItems.OYAKODON.get());
