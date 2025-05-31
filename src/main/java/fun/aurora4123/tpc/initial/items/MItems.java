@@ -122,6 +122,7 @@ public class MItems {
                                     )
                     )
             );
+    //第一份喜晋升的可放置食物
     public static final RegistryObject<Item> EGG_CUSTARD =
             ITEMS.register(
                     //直接获取方块的注册名
@@ -138,6 +139,24 @@ public class MItems {
                                     )
                     )
             );
+    //这么多东西都是一个不懂jvav的人写的，这世道
+    //蛋盖饭
+    public static final RegistryObject<Item> RICE_WITH_EGG =
+            ITEMS.register(
+                    //直接获取方块的注册名
+                    ModBlocks.RICE_WITH_EGG.getId().getPath(),
+                    ()-> new BlockItem(
+                            ModBlocks.RICE_WITH_EGG.get(),
+                            //设置属性：最大堆叠64
+                            new Item.Properties()
+                                    .stacksTo(16)
+                                    .food(
+                                            new FoodProperties.Builder()
+                                                    .nutrition(9)
+                                                    .saturationMod(0.55F)
+                                                    .build()
+                                    )
+                    ));
     //蛋壳
     public static final RegistryObject<Item> EGGSHELL =
             ITEMS.register(

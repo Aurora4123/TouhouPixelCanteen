@@ -11,6 +11,8 @@ import fun.aurora4123.tpc.initial.blocks.DeskBlock;
 import fun.aurora4123.tpc.initial.blocks.DishBlock;
 import fun.aurora4123.tpc.initial.blocks.EggShell;
 import fun.aurora4123.tpc.initial.blocks.StoolBlock;
+import fun.aurora4123.tpc.initial.blocks.UniversalBowl;
+import fun.aurora4123.tpc.initial.blocks.UniversalDish;
 
 
 public class ModBlocks {
@@ -24,4 +26,5 @@ public class ModBlocks {
     public static RegistryObject<Block> DISH = BLOCKS.register("dish", DishBlock::new);
     public static RegistryObject<Block> SCRAMBLED_EGGS_WITH_TOMATO = BLOCKS.register("scrambled_eggs_with_tomato", UniversalDish::new);
     public static RegistryObject<Block> EGG_CUSTARD = BLOCKS.register("egg_custard", UniversalBowl::new);
+    public static RegistryObject<Block> RICE_WITH_EGG = BLOCKS.register("rice_with_egg", UniversalBowl::new);
 }

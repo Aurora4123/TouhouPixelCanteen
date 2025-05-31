@@ -7,6 +7,7 @@
   "block.touhoupixelcanteen.dish": "盘",
   "block.touhoupixelcanteen.scrambled_eggs_with_tomato": "“未翻译”番茄炒蛋",
   "block.touhoupixelcanteen.egg_custard": "卵羹",
+  "block.touhoupixelcanteen.rice_with_egg": "生卵蓋飯",
   "item.touhoupixelcanteen.cash": "交子",
   "item.touhoupixelcanteen.dish": "未成之盤",
   "item.touhoupixelcanteen.cooked_potato_and_gold_carrot": "洋芋及金胡蘿蔔",
@@ -26,7 +27,6 @@
   "tooltip.touhoupixelcanteen.boilsh_egg": "取卵入釜，以山泉烹之。易得之食，可宽于烹。",
   "tooltip.touhoupixelcanteen.boilsh_egg_peeled": "去殼得之，滑嫩于彼，良於與殼共食，",
   "tooltip.touhoupixelcanteen.egg_custard": "此肴，人皆知之。",
-  "tooltip.touhoupixelcanteen.scrambled_eggs_with_tomato": "此肴，人皆知之。"
-
-
+  "tooltip.touhoupixelcanteen.scrambled_eggs_with_tomato": "此肴，人皆知之。",
+  "tooltip.touhoupixelcanteen.rice_with_egg": "于幻想之界人皆爱之。"
 }
