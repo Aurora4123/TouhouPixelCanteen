@@ -9,6 +9,8 @@
   "block.touhoupixelcanteen.egg_custard": "卵羹",
   "block.touhoupixelcanteen.rice_with_egg": "生卵蓋飯",
   "block.touhoupixelcanteen.oyakodon": "<未翻译>亲子丼",
+  "block.touhoupixelcanteen.seaweed_and_egg_soup": "<未翻译>紫菜蛋花汤",
+  "block.touhoupixelcanteen.tamago": "<未翻译>玉子烧",
   "item.touhoupixelcanteen.cash": "交子",
   "item.touhoupixelcanteen.dish": "未成之盤",
   "item.touhoupixelcanteen.cooked_potato_and_gold_carrot": "洋芋及金胡蘿蔔",
@@ -32,5 +34,22 @@
   "tooltip.touhoupixelcanteen.egg_custard": "此肴，人皆知之。",
   "tooltip.touhoupixelcanteen.scrambled_eggs_with_tomato": "此肴，人皆知之。",
   "tooltip.touhoupixelcanteen.rice_with_egg": "于幻想之界人皆爱之。",
-  "tooltip.touhoupixelcanteen.oyakodon": "<未翻译>将鸡肉和洋葱放入咸甜的高汤中慢火熬煮，上面浇上蛋液，然后盖在白饭上，在幻想乡很受欢迎。 \n 亲子丼这个名字的由来是：鸡是蛋的母亲，现在“母”与“子”在锅中重新和为一体，颇有地狱笑话之风。"
+  "tooltip.touhoupixelcanteen.oyakodon": "<未翻译>将鸡肉和洋葱放入咸甜的高汤中慢火熬煮，上面浇上蛋液，然后盖在白饭上，在幻想乡很受欢迎。 \n 亲子丼这个名字的由来是：鸡是蛋的母亲，现在“母”与“子”在锅中重新和为一体，颇有地狱笑话之风。",
+  "tooltip.touhoupixelcanteen.seaweed_and_egg_soup": "<未翻译>将鸡蛋打匀倒入煮沸的锅中，再加入紫菜，便传出海的咸鲜。一份很容易上手的汤。\n 有虾皮吗？",
+  "tooltip.touhoupixelcanteen.tamago": "<未翻译>一份居酒屋内常见的下酒菜，滑嫩的鲜蛋与恰到好处的火候成就了这道美味。",
+
+  "tooltip.farmersdelight.tomato": "<未翻译>颜色鲜艳的浆果，曾经还因为太鲜艳被视为“狐狸的果实”，觉得它具有剧毒，所以只用来观赏。在发现可以食用以后就开始大面积种植了。",
+  "tooltip.farmersdelight.cooking_pot": "<未翻译>一口可以容纳万物的煮锅。会陪伴你整个农夫生涯\ntips:如果您破坏厨锅，那么厨锅内的物品不会掉落，可以保留。",
+  "tooltip.farmersdelight.onion": "<未翻译>人里农田产的洋葱，较为常见。",
+  "tooltip.minecraft.carrot": "<未翻译>人里农田产的胡萝卜，较为常见。",
+  "tooltip.minecraft.kelt": "<未翻译>不知道从哪里流入的外来食材，较为常见。",
+  "tooltip.minecraft.potato": "<未翻译>随处可见的那种普通土豆。",
+  "tooltip.minecraft.pumpkin": "<未翻译>人里农田产的南瓜，较为常见。",
+  "tooltip.minecraft.egg": "<未翻译>人里供应的鸡蛋，较为常见。",
+  "tooltip.minecraft.porkchop": "<未翻译>人里圈养的家猪肉，较为常见。",
+  "tooltip.minecraft.beef": "<未翻译>人里圈养的肉牛肉，较为常见。",
+  "tooltip.minecraft.pufferfish": "<未翻译>高级水产品，但体内含毒素，需小心处理。",
+  "tooltip.minecraft.honey_bottle": "<未翻译>能从树上蜂巢采到的野生蜂蜜，较为常见。",
+  "tooltip.minecraft.salmon": "<未翻译>一种高度洄游海鱼，但在幻想乡的河流湖泊可见。有点儿珍贵。",
+  "tooltip.minecraft.mushroom": "<未翻译>从魔法森林采回来的品相良好的蘑菇，在另外一个世界它无法人工种植，非常珍贵。"
 }

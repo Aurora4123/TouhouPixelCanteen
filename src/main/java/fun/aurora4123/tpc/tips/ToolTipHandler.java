@@ -64,6 +64,12 @@ public class ToolTipHandler {
         if(event.getItemStack().getItem() == MItems.OYAKODON.get()){
             event.getToolTip().add(Component.translatable("tooltip.touhoupixelcanteen.oyakodon"));
         }
+        if(event.getItemStack().getItem() == MItems.SEAWEED_AND_EGG_SOUP.get()){
+            event.getToolTip().add(Component.translatable("tooltip.touhoupixelcanteen.swaweed_and_egg_soup"));
+        }
+        if(event.getItemStack().getItem() == MItems.TAMAGO.get()){
+            event.getToolTip().add(Component.translatable("tooltip.touhoupixelcanteen.tamago"));
+        }
         //下面是对农夫乐事食物进行的追加说明
         if(event.getItemStack().getItem() == ModItems.TOMATO.get()){
             event.getToolTip().add(Component.translatable("tooltip.farmersdelight.tomato"));

@@ -7,6 +7,7 @@ import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.BowlFoodItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.minecraftforge.registries.DeferredRegister;
@@ -61,7 +62,8 @@ public class MItems {
                                                     .nutrition(9)
                                                     .saturationMod(0.5F)
                                                     .build()
-                                    ).craftRemainder(DISH.get())
+                                    )
+                                    .craftRemainder(MItems.DISH.get())
                     ));
 
     public static final RegistryObject<Item> UNPROCESS_DISH =
@@ -152,6 +154,7 @@ public class MItems {
                                                     .saturationMod(0.3F)
                                                     .build()
                                     )
+                                    .craftRemainder(Items.BOWL)
                     )
             );
     //这么多东西都是一个不懂jvav的人写的，这世道
@@ -171,6 +174,7 @@ public class MItems {
                                                     .saturationMod(0.55F)
                                                     .build()
                                     )
+                                    .craftRemainder(Items.BOWL)
                     ));
     //亲子烧
     public static final RegistryObject<Item> OYAKODON =
@@ -189,6 +193,42 @@ public class MItems {
                                                     .build()
                                     )
                                     .craftRemainder(Items.BOWL)
+                    ));
+    //紫菜蛋花汤没有菜和花
+    public static final RegistryObject<Item> SEAWEED_AND_EGG_SOUP =
+            ITEMS.register(
+                    //直接获取方块的注册名
+                    ModBlocks.SEAWEED_AND_EGG_SOUP.getId().getPath(),
+                    ()-> new BlockItem(
+                            ModBlocks.SEAWEED_AND_EGG_SOUP.get(),
+                            //设置属性：最大堆叠64
+                            new Item.Properties()
+                                    .stacksTo(16)
+                                    .food(
+                                            new FoodProperties.Builder()
+                                                    .nutrition(9)
+                                                    .saturationMod(0.55F)
+                                                    .build()
+                                    )
+                                    .craftRemainder(Items.BOWL)
+                    ));
+    //玉子烧
+    public static final RegistryObject<Item> TAMAGO =
+            ITEMS.register(
+                    //直接获取方块的注册名
+                    ModBlocks.TAMAGO.getId().getPath(),
+                    ()-> new BlockItem(
+                            ModBlocks.TAMAGO.get(),
+                            //设置属性：最大堆叠64
+                            new Item.Properties()
+                                    .stacksTo(16)
+                                    .food(
+                                            new FoodProperties.Builder()
+                                                    .nutrition(12)
+                                                    .saturationMod(0.65F)
+                                                    .build()
+                                    )
+                                    .craftRemainder(MItems.DISH.get())
                     ));
     //蛋壳
     public static final RegistryObject<Item> EGGSHELL =

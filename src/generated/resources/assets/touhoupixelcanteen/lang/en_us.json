@@ -9,6 +9,8 @@
   "block.touhoupixelcanteen.egg_custard": "Custard egg",
   "block.touhoupixelcanteen.rice_and_egg": "Cooked rice with egg",
   "block.touhoupixelcanteen.oyakodon": "Oyakoton",
+  "block.touhoupixelcanteen.seaweed_and_egg_soup": "Seaweed and egg soup",
+  "block.touhoupixelcanteen.tamago": "Tamago",
   "item.touhoupixelcanteen.cash": "Cash",
   "item.touhoupixelcanteen.unprocess_dish": "Unprocess dish",
   "item.touhoupixelcanteen.cooked_potato_and_gold_carrot": "Cooked potato with gold carrot",
@@ -33,6 +35,8 @@
   "tooltip.touhoupixelcanteen.scrambled_eggs_with_tomato": "A well-known side dish in China, It is also a creation where many people try cooking for the first time.",
   "tooltip.touhoupixelcanteen.rice_with_egg": "A serving of raw egg on top of rice, in Lotus Land, everyone loves this food.",
   "tooltip.touhoupixelcanteen.oyakodon": "Simmer chicken and onion in a savory and sweet broth over low heat,Then cover it over the rice, in Lotus Land, everyone loves this food.",
+  "tooltip.touhoupixelcanteen.seaweed_and_egg_soup": "Beat the eggs evenly and pour them into a boiling pot, then add seaweed, a soup that is easy to pick up.",
+  "tooltip.touhoupixelcanteen.tamago": "A common appetizer in izakayas, the fresh and tender egg mixture and just the right amount of heat create this dish",
 
 
   "tooltip.farmersdelight.tomato": "颜色鲜艳的浆果，曾经还因为太鲜艳被视为“狐狸的果实”，觉得它具有剧毒，所以只用来观赏。在发现可以食用以后就开始大面积种植了。",

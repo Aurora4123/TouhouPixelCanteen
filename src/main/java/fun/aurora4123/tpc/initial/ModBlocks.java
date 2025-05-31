@@ -1,7 +1,6 @@
 package fun.aurora4123.tpc.initial;
 
 import fun.aurora4123.tpc.TouhouPixelCanteen;
-import fun.aurora4123.tpc.initial.blocks.*;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -28,4 +27,6 @@ public class ModBlocks {
     public static RegistryObject<Block> EGG_CUSTARD = BLOCKS.register("egg_custard", UniversalBowl::new);
     public static RegistryObject<Block> RICE_WITH_EGG = BLOCKS.register("rice_with_egg", UniversalBowl::new);
     public static RegistryObject<Block> OYAKODON = BLOCKS.register("oyakodon", UniversalBowl::new);
+    public static RegistryObject<Block> SEAWEED_AND_EGG_SOUP = BLOCKS.register("seaweed_and_egg_soup", UniversalBowl::new);
+    public static RegistryObject<Block> TAMAGO = BLOCKS.register("tamago", UniversalDish::new);
 }
