@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "equipment",
   "pattern": [
     "333",
     " 2 ",
@@ -19,5 +20,6 @@
   "result": {
     "item": "touhoupixelcanteen:desk",
     "count": 3
-  }
+  },
+  "show_notification": true
 }

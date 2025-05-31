@@ -64,3 +64,10 @@ description='''${mod_description}'''
     versionRange="${minecraft_version_range}"
     ordering="NONE"
     side="BOTH"
+
+[[dependencies.touhoupixelcanteen]]
+    modId = "farmersdelight"
+    mandatory = true
+    versionRange = "[1.2.7,)"
+    ordering = "NONE"
+    side = "BOTH"
