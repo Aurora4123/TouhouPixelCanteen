@@ -157,6 +157,23 @@ public class MItems {
                                                     .build()
                                     )
                     ));
+    //亲子烧
+    public static final RegistryObject<Item> OYAKODON =
+            ITEMS.register(
+                    //直接获取方块的注册名
+                    ModBlocks.OYAKODON.getId().getPath(),
+                    ()-> new BlockItem(
+                            ModBlocks.OYAKODON.get(),
+                            //设置属性：最大堆叠64
+                            new Item.Properties()
+                                    .stacksTo(16)
+                                    .food(
+                                            new FoodProperties.Builder()
+                                                    .nutrition(10)
+                                                    .saturationMod(0.6F)
+                                                    .build()
+                                    )
+                    ));
     //蛋壳
     public static final RegistryObject<Item> EGGSHELL =
             ITEMS.register(

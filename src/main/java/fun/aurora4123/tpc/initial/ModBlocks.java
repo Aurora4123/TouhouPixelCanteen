@@ -27,4 +27,5 @@ public class ModBlocks {
     public static RegistryObject<Block> SCRAMBLED_EGGS_WITH_TOMATO = BLOCKS.register("scrambled_eggs_with_tomato", UniversalDish::new);
     public static RegistryObject<Block> EGG_CUSTARD = BLOCKS.register("egg_custard", UniversalBowl::new);
     public static RegistryObject<Block> RICE_WITH_EGG = BLOCKS.register("rice_with_egg", UniversalBowl::new);
+    public static RegistryObject<Block> OYAKODON = BLOCKS.register("oyakodon", UniversalBowl::new);
 }

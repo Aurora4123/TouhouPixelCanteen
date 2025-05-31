@@ -5,9 +5,10 @@
   "block.touhoupixelcanteen.stool": "凳",
   "block.touhoupixelcanteen.eggshell": "卵殼",
   "block.touhoupixelcanteen.dish": "盘",
-  "block.touhoupixelcanteen.scrambled_eggs_with_tomato": "“未翻译”番茄炒蛋",
+  "block.touhoupixelcanteen.scrambled_eggs_with_tomato": "<未翻译>番茄炒蛋",
   "block.touhoupixelcanteen.egg_custard": "卵羹",
   "block.touhoupixelcanteen.rice_with_egg": "生卵蓋飯",
+  "block.touhoupixelcanteen.oyakodon": "<未翻译>亲子丼",
   "item.touhoupixelcanteen.cash": "交子",
   "item.touhoupixelcanteen.dish": "未成之盤",
   "item.touhoupixelcanteen.cooked_potato_and_gold_carrot": "洋芋及金胡蘿蔔",
@@ -28,5 +29,6 @@
   "tooltip.touhoupixelcanteen.boilsh_egg_peeled": "去殼得之，滑嫩于彼，良於與殼共食，",
   "tooltip.touhoupixelcanteen.egg_custard": "此肴，人皆知之。",
   "tooltip.touhoupixelcanteen.scrambled_eggs_with_tomato": "此肴，人皆知之。",
-  "tooltip.touhoupixelcanteen.rice_with_egg": "于幻想之界人皆爱之。"
+  "tooltip.touhoupixelcanteen.rice_with_egg": "于幻想之界人皆爱之。",
+  "tooltip.touhoupixelcanteen.oyakodon": "<未翻译>将鸡肉和洋葱放入咸甜的高汤中慢火熬煮，上面浇上蛋液，然后盖在白饭上，在幻想乡很受欢迎。 \n 亲子丼这个名字的由来是：鸡是蛋的母亲，现在“母”与“子”在锅中重新和为一体，颇有地狱笑话之风。"
 }

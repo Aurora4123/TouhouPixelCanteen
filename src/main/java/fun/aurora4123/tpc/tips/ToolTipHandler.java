@@ -58,6 +58,9 @@ public class ToolTipHandler {
         if(event.getItemStack().getItem() == MItems.RICE_WITH_EGG.get()){
             event.getToolTip().add(Component.translatable("tooltip.touhoupixelcanteen.rice_with_egg"));
         }
+        if(event.getItemStack().getItem() == MItems.OYAKODON.get()){
+            event.getToolTip().add(Component.translatable("tooltip.touhoupixelcanteen.oyakodon"));
+        }
         //下面是对农夫乐事食物进行的追加说明
         if(event.getItemStack().getItem() == ModItems.TOMATO.get()){
             event.getToolTip().add(Component.translatable("tooltip.farmersdelight.tomato"));
