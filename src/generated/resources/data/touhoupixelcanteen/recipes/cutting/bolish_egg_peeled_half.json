@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "touhoupixelcanteen:boilsh_egg_peeled"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  },
+  "result": [
+    {
+      "item": "touhoupixelcanteen:boilsh_egg_peeled_half",
+      "count": 1
+    }
+  ]
+}

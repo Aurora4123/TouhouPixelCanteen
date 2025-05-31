@@ -8,6 +8,7 @@ import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -60,7 +61,7 @@ public class MItems {
                                                     .nutrition(9)
                                                     .saturationMod(0.5F)
                                                     .build()
-                                    )
+                                    ).craftRemainder(DISH.get())
                     ));
 
     public static final RegistryObject<Item> UNPROCESS_DISH =
@@ -187,6 +188,7 @@ public class MItems {
                                                     .saturationMod(0.6F)
                                                     .build()
                                     )
+                                    .craftRemainder(Items.BOWL)
                     ));
     //蛋壳
     public static final RegistryObject<Item> EGGSHELL =

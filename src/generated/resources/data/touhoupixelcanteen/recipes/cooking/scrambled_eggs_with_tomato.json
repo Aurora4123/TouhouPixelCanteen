@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "item": "farmersdelight:tomato"
+    },
+    {
+      "item": "touhoupixelcanteen:egg_wash"
+    }
+  ],
+  "result": {
+    "item": "touhoupixelcanteen:scrambled_eggs_with_tomato"
+  },
+  "container": {
+    "item": "touhoupixelcanteen:dish"
+  },
+
+  "cookingtime": 150
+}
