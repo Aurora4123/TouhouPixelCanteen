@@ -45,6 +45,26 @@ public class MItems {
                             ModBlocks.DISH.get(),
                             //设置属性：最大堆叠64
                             new Item.Properties().stacksTo(64)));
+    //第一份可放置食物
+    public static final RegistryObject<Item> SCRAMBLED_EGGS_WITH_TOMATO =
+            ITEMS.register(
+                    //直接获取方块的注册名
+                    ModBlocks.SCRAMBLED_EGGS_WITH_TOMATO.getId().getPath(),
+                    ()-> new BlockItem(
+                            ModBlocks.SCRAMBLED_EGGS_WITH_TOMATO.get(),
+                            //设置属性：最大堆叠64
+                            new Item.Properties()
+                                    .stacksTo(16)
+                                    .food(
+                                            new FoodProperties.Builder()
+                                                    .nutrition(9)
+                                                    .saturationMod(0.5F)
+                                                    .build()
+                                    )
+                    ));
+
+    public static final RegistryObject<Item> UNPROCESS_DISH =
+            ITEMS.register("unprocess_dish", () -> new Item(new Item.Properties().stacksTo(64)));
 
     //金胡萝卜和烤土豆
     public static final RegistryObject<Item> POTATO_AND_CARROT =

@@ -7,6 +7,11 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
+import fun.aurora4123.tpc.initial.blocks.DeskBlock;
+import fun.aurora4123.tpc.initial.blocks.DishBlock;
+import fun.aurora4123.tpc.initial.blocks.EggShell;
+import fun.aurora4123.tpc.initial.blocks.StoolBlock;
+
 
 public class ModBlocks {
     //注册机：与注册物品相同，将类型改为方块即可
