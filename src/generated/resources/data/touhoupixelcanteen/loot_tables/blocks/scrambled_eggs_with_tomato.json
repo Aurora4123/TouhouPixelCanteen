@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "touhoupixelcanteen:blocks/scrambled_eggs_with_tomato",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "touhoupixelcanteen:scrambled_eggs_with_tomato"
+        }
+      ]
+    }
+  ]
+}

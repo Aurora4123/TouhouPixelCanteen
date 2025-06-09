@@ -47,6 +47,7 @@ public class Tabs {
                                 output.accept(MItems.RICE_CONGEE.get());
                                 output.accept(MItems.SCRAMBLED_EGGS_WITH_TOMATO.get());
                                 output.accept(MItems.TAMAGO.get());
+                                output.accept(MItems.WESTLAKE_FISH.get());
                             }).build());
     /**
      * 将内容注册到一个总线上

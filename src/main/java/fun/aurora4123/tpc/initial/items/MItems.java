@@ -247,6 +247,24 @@ public class MItems {
                                     )
                                     .craftRemainder(MItems.DISH.get())
                     ));
+    //终极黑暗料理：西湖醋鱼
+    public static final RegistryObject<Item> WESTLAKE_FISH =
+            ITEMS.register(
+                    //直接获取方块的注册名
+                    ModBlocks.WESTLAKE_FISH.getId().getPath(),
+                    ()-> new BlockItem(
+                            ModBlocks.WESTLAKE_FISH.get(),
+                            //设置属性：最大堆叠64
+                            new Item.Properties()
+                                    .stacksTo(16)
+                                    .food(
+                                            new FoodProperties.Builder()
+                                                    .nutrition(12)
+                                                    .saturationMod(0.65F)
+                                                    .build()
+                                    )
+                                    .craftRemainder(MItems.DISH.get())
+                    ));
     //蛋壳
     public static final RegistryObject<Item> EGGSHELL =
             ITEMS.register(

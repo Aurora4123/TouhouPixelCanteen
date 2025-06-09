@@ -73,6 +73,9 @@ public class ToolTipHandler {
         if(event.getItemStack().getItem() == MItems.TAMAGO.get()){
             event.getToolTip().add(Component.translatable("tooltip.touhoupixelcanteen.tamago"));
         }
+        if(event.getItemStack().getItem() == MItems.WESTLAKE_FISH.get()){
+            event.getToolTip().add(Component.translatable("tooltip.touhoupixelcanteen.westlake_fish"));
+        }
         //下面是对农夫乐事食物进行的追加说明
         if(event.getItemStack().getItem() == ModItems.TOMATO.get()){
             event.getToolTip().add(Component.translatable("tooltip.farmersdelight.tomato"));
