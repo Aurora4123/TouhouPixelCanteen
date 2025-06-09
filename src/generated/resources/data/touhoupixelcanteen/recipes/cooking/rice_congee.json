@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "item": "farmersdelight:cooked_rice"
+    }
+  ],
+  "result": {
+    "item": "touhoupixelcanteen:rice_congee"
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  },
+
+  "cookingtime": 200
+}

@@ -212,6 +212,23 @@ public class MItems {
                                     )
                                     .craftRemainder(Items.BOWL)
                     ));
+    public static final RegistryObject<Item> RICE_CONGEE =
+            ITEMS.register(
+                    //直接获取方块的注册名
+                    ModBlocks.RICE_CONGEE.getId().getPath(),
+                    ()-> new BlockItem(
+                            ModBlocks.RICE_CONGEE.get(),
+                            //设置属性：最大堆叠64
+                            new Item.Properties()
+                                    .stacksTo(16)
+                                    .food(
+                                            new FoodProperties.Builder()
+                                                    .nutrition(9)
+                                                    .saturationMod(0.58F)
+                                                    .build()
+                                    )
+                                    .craftRemainder(Items.BOWL)
+                    ));
     //玉子烧
     public static final RegistryObject<Item> TAMAGO =
             ITEMS.register(

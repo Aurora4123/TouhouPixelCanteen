@@ -10,6 +10,7 @@
   "block.touhoupixelcanteen.rice_with_egg": "鲜蛋盖饭",
   "block.touhoupixelcanteen.oyakodon": "亲子丼",
   "block.touhoupixelcanteen.seaweed_and_egg_soup": "紫菜蛋花汤",
+  "block.touhoupixelcanteen.rice_congee": "粥",
   "block.touhoupixelcanteen.tamago": "玉子烧",
   "item.touhoupixelcanteen.cash": "现金",
   "item.touhoupixelcanteen.unprocess_dish": "未完成的盘子",
@@ -36,6 +37,7 @@
   "tooltip.touhoupixelcanteen.rice_with_egg": "一份鲜蛋盖在今年的新米饭上，在幻想乡很受欢迎。 \n 据称，在人里很多来自东方国度的居民无法接受生食鸡蛋。",
   "tooltip.touhoupixelcanteen.oyakodon": "将鸡肉和洋葱放入咸甜的高汤中慢火熬煮，上面浇上蛋液，然后盖在白饭上，在幻想乡很受欢迎。 \n 亲子丼这个名字的由来是：鸡是蛋的母亲，现在“母”与“子”在锅中重新和为一体，颇有地狱笑话之风。",
   "tooltip.touhoupixelcanteen.seaweed_and_egg_soup": "将鸡蛋打匀倒入煮沸的锅中，再加入紫菜，便传出海的咸鲜。一份很容易上手的汤。\n 有虾皮吗？",
+  "tooltip.touhoupixelcanteen.rice_congee": "一份用山泉水煮的粥，绵绸清甜",
   "tooltip.touhoupixelcanteen.tamago": "一份居酒屋内常见的下酒菜，滑嫩的鲜蛋与恰到好处的火候成就了这道美味。",
 
   "tooltip.farmersdelight.tomato": "颜色鲜艳的浆果，曾经还因为太鲜艳被视为“狐狸的果实”，觉得它具有剧毒，所以只用来观赏。在发现可以食用以后就开始大面积种植了。",

@@ -44,6 +44,7 @@ public class Tabs {
                                 output.accept(MItems.RICE_WITH_EGG.get());
                                 output.accept(MItems.OYAKODON.get());
                                 output.accept(MItems.SEAWEED_AND_EGG_SOUP.get());
+                                output.accept(MItems.RICE_CONGEE.get());
                                 output.accept(MItems.SCRAMBLED_EGGS_WITH_TOMATO.get());
                                 output.accept(MItems.TAMAGO.get());
                             }).build());
