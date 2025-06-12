@@ -55,6 +55,12 @@ public class ToolTipHandler {
         if(event.getItemStack().getItem() == MItems.TEA_EGG.get()){
             event.getToolTip().add(Component.translatable("tooltip.touhoupixelcanteen.tea_egg"));
         }
+        if(event.getItemStack().getItem() == MItems.MELON_FLESH.get()){
+            event.getToolTip().add(Component.translatable("tooltip.touhoupixelcanteen.melon_flesh"));
+        }
+        if(event.getItemStack().getItem() == MItems.MELON_RIND.get()){
+            event.getToolTip().add(Component.translatable("tooltip.touhoupixelcanteen.melon_rind"));
+        }
         if(event.getItemStack().getItem() == MItems.EGG_CUSTARD.get()){
             event.getToolTip().add(Component.translatable("tooltip.touhoupixelcanteen.egg_custard"));
         }

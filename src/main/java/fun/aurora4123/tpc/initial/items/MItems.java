@@ -153,6 +153,34 @@ public class MItems {
                                     )
                     )
             );
+    //西瓜瓤
+    public static final RegistryObject<Item> MELON_FLESH =
+            ITEMS.register(
+                    "melon_flesh",
+                    () -> new Item(
+                            new Item.Properties()
+                                    .food(
+                                            new FoodProperties.Builder()
+                                                    .nutrition(1)
+                                                    .saturationMod(0.2F)
+                                                    .build()
+                                    )
+                    )
+            );
+    //西瓜皮
+    public static final RegistryObject<Item> MELON_RIND =
+            ITEMS.register(
+                    "melon_rind",
+                    () -> new Item(
+                            new Item.Properties()
+                                    .food(
+                                            new FoodProperties.Builder()
+                                                    .nutrition(1)
+                                                    .saturationMod(0.1F)
+                                                    .build()
+                                    )
+                    )
+            );
     //第一份喜晋升的可放置食物
     public static final RegistryObject<Item> EGG_CUSTARD =
             ITEMS.register(
