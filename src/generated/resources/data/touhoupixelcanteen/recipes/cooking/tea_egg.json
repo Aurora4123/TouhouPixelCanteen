@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "item": "touhoupixelcanteen:boilsh_egg_peeled"
+    },
+    {
+      "item": "minecraft:dried_kelp"
+    }
+  ],
+  "result": {
+    "item": "touhoupixelcanteen:tea_egg"
+  },
+
+  "cookingtime": 200
+}
