@@ -139,6 +139,20 @@ public class MItems {
                                     )
                     )
             );
+    //茶叶蛋
+    public static final RegistryObject<Item> TEA_EGG =
+            ITEMS.register(
+                    "tea_egg",
+                    () -> new Item(
+                            new Item.Properties()
+                                    .food(
+                                            new FoodProperties.Builder()
+                                                    .nutrition(7)
+                                                    .saturationMod(0.4F)
+                                                    .build()
+                                    )
+                    )
+            );
     //第一份喜晋升的可放置食物
     public static final RegistryObject<Item> EGG_CUSTARD =
             ITEMS.register(

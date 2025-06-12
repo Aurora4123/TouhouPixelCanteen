@@ -52,6 +52,9 @@ public class ToolTipHandler {
         if(event.getItemStack().getItem() == MItems.BOILED_EGG_PEELED_HALF.get()){
             event.getToolTip().add(Component.translatable("tooltip.touhoupixelcanteen.boilsh_egg_peeled_half"));
         }
+        if(event.getItemStack().getItem() == MItems.TEA_EGG.get()){
+            event.getToolTip().add(Component.translatable("tooltip.touhoupixelcanteen.tea_egg"));
+        }
         if(event.getItemStack().getItem() == MItems.EGG_CUSTARD.get()){
             event.getToolTip().add(Component.translatable("tooltip.touhoupixelcanteen.egg_custard"));
         }
