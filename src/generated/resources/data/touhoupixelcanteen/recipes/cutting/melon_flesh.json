@@ -1,0 +1,27 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:melon_slice"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  },
+  "result": [
+    {
+      "item": "touhoupixelcanteen:melon_flesh",
+      "count": 1
+    },
+    {
+      "item": "touhoupixelcanteen:melon_rind",
+      "count": 1,
+      "chance": 1
+    },
+    {
+      "item": "touhoupixelcanteen:melon_rind",
+      "count": 1,
+      "chance": 0.1
+    }
+  ]
+}

@@ -153,6 +153,34 @@ public class MItems {
                                     )
                     )
             );
+    //西瓜瓤
+    public static final RegistryObject<Item> MELON_FLESH =
+            ITEMS.register(
+                    "melon_flesh",
+                    () -> new Item(
+                            new Item.Properties()
+                                    .food(
+                                            new FoodProperties.Builder()
+                                                    .nutrition(1)
+                                                    .saturationMod(0.2F)
+                                                    .build()
+                                    )
+                    )
+            );
+    //西瓜皮
+    public static final RegistryObject<Item> MELON_RIND =
+            ITEMS.register(
+                    "melon_rind",
+                    () -> new Item(
+                            new Item.Properties()
+                                    .food(
+                                            new FoodProperties.Builder()
+                                                    .nutrition(1)
+                                                    .saturationMod(0.1F)
+                                                    .build()
+                                    )
+                    )
+            );
     //第一份喜晋升的可放置食物
     public static final RegistryObject<Item> EGG_CUSTARD =
             ITEMS.register(
@@ -221,6 +249,24 @@ public class MItems {
                                     .food(
                                             new FoodProperties.Builder()
                                                     .nutrition(9)
+                                                    .saturationMod(0.55F)
+                                                    .build()
+                                    )
+                                    .craftRemainder(Items.BOWL)
+                    ));
+    //咸菜粥
+    public static final RegistryObject<Item> PICKLE_CONGEE =
+            ITEMS.register(
+                    //直接获取方块的注册名
+                    ModBlocks.PICKLE_CONGEE.getId().getPath(),
+                    ()-> new BlockItem(
+                            ModBlocks.PICKLE_CONGEE.get(),
+                            //设置属性：最大堆叠64
+                            new Item.Properties()
+                                    .stacksTo(16)
+                                    .food(
+                                            new FoodProperties.Builder()
+                                                    .nutrition(11)
                                                     .saturationMod(0.55F)
                                                     .build()
                                     )

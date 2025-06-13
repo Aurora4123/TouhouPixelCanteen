@@ -55,6 +55,12 @@ public class ToolTipHandler {
         if(event.getItemStack().getItem() == MItems.TEA_EGG.get()){
             event.getToolTip().add(Component.translatable("tooltip.touhoupixelcanteen.tea_egg"));
         }
+        if(event.getItemStack().getItem() == MItems.MELON_FLESH.get()){
+            event.getToolTip().add(Component.translatable("tooltip.touhoupixelcanteen.melon_flesh"));
+        }
+        if(event.getItemStack().getItem() == MItems.MELON_RIND.get()){
+            event.getToolTip().add(Component.translatable("tooltip.touhoupixelcanteen.melon_rind"));
+        }
         if(event.getItemStack().getItem() == MItems.EGG_CUSTARD.get()){
             event.getToolTip().add(Component.translatable("tooltip.touhoupixelcanteen.egg_custard"));
         }
@@ -69,6 +75,9 @@ public class ToolTipHandler {
         }
         if(event.getItemStack().getItem() == MItems.SEAWEED_AND_EGG_SOUP.get()){
             event.getToolTip().add(Component.translatable("tooltip.touhoupixelcanteen.seaweed_and_egg_soup"));
+        }
+        if(event.getItemStack().getItem() == MItems.PICKLE_CONGEE.get()){
+            event.getToolTip().add(Component.translatable("tooltip.touhoupixelcanteen.pickle_congee"));
         }
         if(event.getItemStack().getItem() == MItems.RICE_CONGEE.get()){
             event.getToolTip().add(Component.translatable("tooltip.touhoupixelcanteen.rice_congee"));
