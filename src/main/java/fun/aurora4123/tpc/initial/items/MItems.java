@@ -181,6 +181,22 @@ public class MItems {
                                     )
                     )
             );
+    //麦芽糖
+    public static final RegistryObject<Item> MALTOSE =
+            ITEMS.register(
+                    "maltose",
+                    () -> new Item(
+                            new Item.Properties()
+                                    .food(
+                                            new FoodProperties.Builder()
+                                                    .nutrition(4)
+                                                    .saturationMod(0.4F)
+                                                    .fast()
+                                                    .build()
+
+                                    )
+                    )
+            );
     //第一份喜晋升的可放置食物
     public static final RegistryObject<Item> EGG_CUSTARD =
             ITEMS.register(
