@@ -254,6 +254,24 @@ public class MItems {
                                     )
                                     .craftRemainder(Items.BOWL)
                     ));
+    //咸菜粥
+    public static final RegistryObject<Item> PICKLE_PORRIDGE =
+            ITEMS.register(
+                    //直接获取方块的注册名
+                    ModBlocks.PICKLE_PORRIDGE.getId().getPath(),
+                    ()-> new BlockItem(
+                            ModBlocks.PICKLE_PORRIDGE.get(),
+                            //设置属性：最大堆叠64
+                            new Item.Properties()
+                                    .stacksTo(16)
+                                    .food(
+                                            new FoodProperties.Builder()
+                                                    .nutrition(12)
+                                                    .saturationMod(0.55F)
+                                                    .build()
+                                    )
+                                    .craftRemainder(Items.BOWL)
+                    ));
     public static final RegistryObject<Item> RICE_CONGEE =
             ITEMS.register(
                     //直接获取方块的注册名

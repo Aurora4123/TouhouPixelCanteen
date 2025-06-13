@@ -76,6 +76,9 @@ public class ToolTipHandler {
         if(event.getItemStack().getItem() == MItems.SEAWEED_AND_EGG_SOUP.get()){
             event.getToolTip().add(Component.translatable("tooltip.touhoupixelcanteen.seaweed_and_egg_soup"));
         }
+        if(event.getItemStack().getItem() == MItems.PICKLE_PORRIDGE.get()){
+            event.getToolTip().add(Component.translatable("tooltip.touhoupixelcanteen.pickle_porridge"));
+        }
         if(event.getItemStack().getItem() == MItems.RICE_CONGEE.get()){
             event.getToolTip().add(Component.translatable("tooltip.touhoupixelcanteen.rice_congee"));
         }
