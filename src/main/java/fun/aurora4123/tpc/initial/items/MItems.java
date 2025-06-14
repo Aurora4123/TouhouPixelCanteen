@@ -321,6 +321,8 @@ public class MItems {
                                             new FoodProperties.Builder()
                                                     .nutrition(12)
                                                     .saturationMod(0.65F)
+                                                    .effect(() -> new MobEffectInstance(
+                                                            MobEffects.DARKNESS, 600, 0), 0.3F)
                                                     .build()
                                     )
                                     .craftRemainder(MItems.DISH.get())

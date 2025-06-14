@@ -16,10 +16,13 @@ repositories{
         content { includeGroup "curse.maven" }
     }
     maven { url "https://repo.spongepowered.org/maven" }
+    maven { url "https://maven.tterrag.com/" }
 }
 base {
     archivesName = mod_id
 }
+
+jarJar.enable()
 
 // Mojang ships Java 17 to end users in 1.18+, so your mod should target Java 17.
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
@@ -112,8 +115,6 @@ mixin {
 
 
 dependencies {
-
-
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
     testAnnotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
     implementation 'org.spongepowered:mixin:0.8.5'
@@ -124,9 +125,17 @@ dependencies {
     // then special handling is done to allow a setup of a vanilla dependency without the use of an external repository.
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
     implementation fg.deobf("curse.maven:farmers-delight-398521:6154802")
-    implementation fg.deobf("curse.maven:improperui-forged-1209983:6362682")
+    implementation fg.deobf(jarJar("curse.maven:improperui-forged-1209983:6362682")){
+        transitive = false
+        jarJar.ranged(it, "[0.0.4.0,0.0.5.0)")
+    }
     implementation fg.deobf("curse.maven:jei-238222:6075247")
     implementation fg.deobf("curse.maven:appleskin-248787:4770828")
+    implementation fg.deobf("curse.maven:youkais-homecoming-957437:6631906")
+    implementation fg.deobf(jarJar("com.tterrag.registrate:Registrate:MC1.20-1.3.11")){
+        transitive = false
+        jarJar.ranged(it, "[MC1.20-1.3.11,)")
+    }
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.
@@ -147,6 +156,8 @@ tasks.named('processResources', ProcessResources).configure {
         expand replaceProperties + [project: project]
     }
 }
+
+tasks.jarJar.finalizedBy('reobfJarJar')
 
 // Example for how to get properties into the manifest for reading at runtime.
 tasks.named('jar', Jar).configure {
