@@ -61,6 +61,9 @@ public class ToolTipHandler {
         if(event.getItemStack().getItem() == MItems.MELON_RIND.get()){
             event.getToolTip().add(Component.translatable("tooltip.touhoupixelcanteen.melon_rind"));
         }
+        if(event.getItemStack().getItem() == MItems.MALTOSE.get()){
+            event.getToolTip().add(Component.translatable("tooltip.touhoupixelcanteen.maltose"));
+        }
         if(event.getItemStack().getItem() == MItems.EGG_CUSTARD.get()){
             event.getToolTip().add(Component.translatable("tooltip.touhoupixelcanteen.egg_custard"));
         }
