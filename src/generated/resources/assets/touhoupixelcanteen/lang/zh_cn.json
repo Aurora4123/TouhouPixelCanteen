@@ -14,6 +14,8 @@
   "block.touhoupixelcanteen.pickle_congee": "咸菜粥",
   "block.touhoupixelcanteen.tamago": "玉子烧",
   "block.touhoupixelcanteen.westlake_fish": "西湖醋鱼",
+  "block.touhoupixelcanteen.dongpo_pork": "东坡肉",
+
   "item.touhoupixelcanteen.cash": "现金",
   "item.touhoupixelcanteen.unprocess_dish": "未完成的盘子",
   "item.touhoupixelcanteen.cooked_potato_and_gold_carrot": "烤土豆与金胡萝卜",
@@ -25,6 +27,7 @@
   "item.touhoupixelcanteen.maltose": "麦芽糖",
   "item.touhoupixelcanteen.boilsh_egg_peeled": "去壳水煮蛋",
   "item.touhoupixelcanteen.boilsh_egg_peeled_half": "切开的水煮蛋",
+
   "key.category.touhoupixelcanteeen.gui": "东方像素食堂：test",
   "key.touhoupixelcanteen.openGui": "打开Iui",
   "tooltip.touhoupixelcanteen.cooked_potato_and_gold_carrot": "一个用金胡萝卜与烤马铃薯组合而成的食物，也许来自突然产生的小小奇思妙想。",
@@ -51,6 +54,7 @@
   "tooltip.touhoupixelcanteen.rice_congee": "一份用山泉水煮的粥，绵绸清甜",
   "tooltip.touhoupixelcanteen.tamago": "一份居酒屋内常见的下酒菜，滑嫩的鲜蛋与恰到好处的火候成就了这道美味。",
   "tooltip.touhoupixelcanteen.westlake_fish": "西湖醋鱼源于南宋京都临安，也就是现在的杭州，但是在幻想乡的反响并不好。\n1956年浙江省36个杭州名菜，2018年浙江十大经典名菜。\n你知道为什么西湖里有这么多鱼吗？——因为西湖醋鱼没法下口，直接倒进湖里喂鱼了。",
+  "tooltip.touhoupixelcanteen.dongpo_pork": "东坡肉，杭州名菜，苏轼所创，红亮酥烂，香糯不腻，传承千年美味。\n北宋时期，苏轼在杭州当市长的时候捣鼓捣鼓出来哒",
 
   "tooltip.farmersdelight.tomato": "颜色鲜艳的浆果，曾经还因为太鲜艳被视为“狐狸的果实”，觉得它具有剧毒，所以只用来观赏。在发现可以食用以后就开始大面积种植了。",
   "tooltip.farmersdelight.cooking_pot": "一口可以容纳万物的煮锅。会陪伴你整个农夫生涯\ntips:如果您破坏厨锅，那么厨锅内的物品不会掉落，可以保留。",

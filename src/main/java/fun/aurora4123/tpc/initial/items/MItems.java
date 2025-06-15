@@ -343,6 +343,24 @@ public class MItems {
                                     )
                                     .craftRemainder(MItems.DISH.get())
                     ));
+    //东坡肉
+    public static final RegistryObject<Item> DONGPO_PORK =
+            ITEMS.register(
+                    //直接获取方块的注册名
+                    ModBlocks.DONGPO_PORK.getId().getPath(),
+                    ()-> new BlockItem(
+                            ModBlocks.DONGPO_PORK.get(),
+                            //设置属性：最大堆叠64
+                            new Item.Properties()
+                                    .stacksTo(16)
+                                    .food(
+                                            new FoodProperties.Builder()
+                                                    .nutrition(12)
+                                                    .saturationMod(0.65F)
+                                                    .build()
+                                    )
+                                    .craftRemainder(MItems.DISH.get())
+                    ));
     //蛋壳
     public static final RegistryObject<Item> EGGSHELL =
             ITEMS.register(
