@@ -338,7 +338,9 @@ public class MItems {
                                                     .nutrition(12)
                                                     .saturationMod(0.65F)
                                                     .effect(() -> new MobEffectInstance(
-                                                            MobEffects.DARKNESS, 600, 0), 0.3F)
+                                                            MobEffects.DARKNESS, 300, 0), 0.3F)
+                                                    .effect(() -> new MobEffectInstance(
+                                                            MobEffects.CONFUSION, 300, 0), 0.1F)
                                                     .build()
                                     )
                                     .craftRemainder(MItems.DISH.get())
