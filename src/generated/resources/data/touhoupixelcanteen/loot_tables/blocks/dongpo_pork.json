@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "touhoupixelcanteen:blocks/dongpo_pork",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "touhoupixelcanteen:dongpo_pork"
+        }
+      ]
+    }
+  ]
+}

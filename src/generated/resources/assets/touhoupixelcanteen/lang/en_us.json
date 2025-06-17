@@ -14,6 +14,8 @@
   "block.touhoupixelcanteen.pickle_congee": "Pickle congee",
   "block.touhoupixelcanteen.tamago": "Tamago",
   "block.touhoupixelcanteen.westlake_fish": "West Lake Fish in Vinegar Gravy",
+  "block.touhoupixelcanteen.dongpo_pork": "braised pork named form a chef:DongPo.",
+
   "item.touhoupixelcanteen.cash": "Cash",
   "item.touhoupixelcanteen.unprocess_dish": "Unprocess dish",
   "item.touhoupixelcanteen.cooked_potato_and_gold_carrot": "Cooked potato with gold carrot",
@@ -25,8 +27,10 @@
   "item.touhoupixelcanteen.maltose": "Maltose",
   "item.touhoupixelcanteen.boilsh_egg_peeled": "Peeled boilsh egg",
   "item.touhoupixelcanteen.boilsh_egg_peeled_half": "Half peeled boilsh egg",
+
   "key.category.touhoupixelcanteeen.gui": "Touhou Pixel Canteen: Gui",
   "key.touhoupixelcanteen.openGui": "Open Iui",
+
   "tooltip.touhoupixelcanteen.cooked_potato_and_gold_carrot":"A food made from a combination of gold carrot and cooked potatoes,this small idea may come from daily life.",
   "tooltip.touhoupixelcanteen.stool": "Made form wood plank, simple but durable.",
   "tooltip.touhoupixelcanteen.desk": "Made form wood plank, delicious dishes can be served on top.",
@@ -51,7 +55,7 @@
   "tooltip.touhoupixelcanteen.rice_congee": "Ordinary Congee cooked in mountain spring water",
   "tooltip.touhoupixelcanteen.tamago": "A common appetizer in izakayas, the fresh and tender egg mixture and just the right amount of heat create this dish",
   "tooltip.touhoupixelcanteen.westlake_fish": "A famous dish from Hangzhou, Zhejiang, China. But this dish doesn't have a good reputation",
-
+  "tooltip.touhoupixelcanteen.dongpo_pork": "belly, sweet-savory, tender named form a chef who can cook.",
 
   "tooltip.farmersdelight.tomato": "颜色鲜艳的浆果，曾经还因为太鲜艳被视为“狐狸的果实”，觉得它具有剧毒，所以只用来观赏。在发现可以食用以后就开始大面积种植了。",
   "tooltip.farmersdelight.cooking_pot": "一口可以容纳万物的煮锅。会陪伴你整个农夫生涯\ntips:如果您破坏厨锅，那么厨锅内的物品不会掉落，可以保留。",

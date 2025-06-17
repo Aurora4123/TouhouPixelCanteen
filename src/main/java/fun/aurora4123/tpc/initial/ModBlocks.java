@@ -32,4 +32,5 @@ public class ModBlocks {
     public static RegistryObject<Block> RICE_CONGEE = BLOCKS.register("rice_congee", UniversalBowl::new);
     public static RegistryObject<Block> TAMAGO = BLOCKS.register("tamago", UniversalDish::new);
     public static RegistryObject<Block> WESTLAKE_FISH = BLOCKS.register("westlake_fish", UniversalDish::new);
+    public static RegistryObject<Block> DONGPO_PORK = BLOCKS.register("dongpo_pork", UniversalDish::new);
 }
