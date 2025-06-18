@@ -34,7 +34,7 @@ public class Tabs {
                             .displayItems((itemDisplayParameters, output) -> {
                                 //请在此处添加已注册的菜品
                                 //output.accept(/.../);
-                                output.accept(MItems.POTATO_AND_CARROT.get());
+                                //output.accept(MItems.POTATO_AND_CARROT.get());
                                 output.accept(MItems.EGG_WASH.get());
                                 output.accept(MItems.EGGSHELL.get());
                                 output.accept(MItems.BOILED_EGG.get());
@@ -48,12 +48,14 @@ public class Tabs {
                                 output.accept(MItems.RICE_WITH_EGG.get());
                                 output.accept(MItems.OYAKODON.get());
                                 output.accept(MItems.SEAWEED_AND_EGG_SOUP.get());
-                                output.accept(MItems.PICKLE_CONGEE.get());
                                 output.accept(MItems.RICE_CONGEE.get());
+                                output.accept(MItems.PICKLE_CONGEE.get());
+                                output.accept(MItems.PUMPKIN_CONGEE.get());
                                 output.accept(MItems.SCRAMBLED_EGGS_WITH_TOMATO.get());
                                 output.accept(MItems.TAMAGO.get());
                                 output.accept(MItems.WESTLAKE_FISH.get());
                                 output.accept(MItems.DONGPO_PORK.get());
+                                output.accept(MItems.FIRED_SOYBEAN_SCUM_ROL .get());
                             }).build());
     /**
      * 将内容注册到一个总线上

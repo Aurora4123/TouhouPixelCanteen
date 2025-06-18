@@ -85,6 +85,9 @@ public class ToolTipHandler {
         if(event.getItemStack().getItem() == MItems.RICE_CONGEE.get()){
             event.getToolTip().add(Component.translatable("tooltip.touhoupixelcanteen.rice_congee"));
         }
+        if(event.getItemStack().getItem() == MItems.PUMPKIN_CONGEE.get()){
+            event.getToolTip().add(Component.translatable("tooltip.touhoupixelcanteen.pumpkin_congee"));
+        }
         if(event.getItemStack().getItem() == MItems.TAMAGO.get()){
             event.getToolTip().add(Component.translatable("tooltip.touhoupixelcanteen.tamago"));
         }
@@ -93,6 +96,9 @@ public class ToolTipHandler {
         }
         if(event.getItemStack().getItem() == MItems.DONGPO_PORK.get()){
             event.getToolTip().add(Component.translatable("tooltip.touhoupixelcanteen.dongpo_pork"));
+        }
+        if(event.getItemStack().getItem() == MItems.FIRED_SOYBEAN_SCUM_ROL.get()){
+            event.getToolTip().add(Component.translatable("tooltip.touhoupixelcanteen.fired_soybean_scum_rol"));
         }
         //下面是对农夫乐事食物进行的追加说明
         if(event.getItemStack().getItem() == ModItems.TOMATO.get()){

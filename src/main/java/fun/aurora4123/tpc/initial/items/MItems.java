@@ -305,6 +305,23 @@ public class MItems {
                                     )
                                     .craftRemainder(Items.BOWL)
                     ));
+    public static final RegistryObject<Item> PUMPKIN_CONGEE =
+            ITEMS.register(
+                    //直接获取方块的注册名
+                    ModBlocks.PUMPKIN_CONGEE.getId().getPath(),
+                    ()-> new BlockItem(
+                            ModBlocks.PUMPKIN_CONGEE.get(),
+                            //设置属性：最大堆叠64
+                            new Item.Properties()
+                                    .stacksTo(16)
+                                    .food(
+                                            new FoodProperties.Builder()
+                                                    .nutrition(9)
+                                                    .saturationMod(0.7F)
+                                                    .build()
+                                    )
+                                    .craftRemainder(Items.BOWL)
+                    ));
     //玉子烧
     public static final RegistryObject<Item> TAMAGO =
             ITEMS.register(
@@ -359,6 +376,23 @@ public class MItems {
                                             new FoodProperties.Builder()
                                                     .nutrition(12)
                                                     .saturationMod(0.65F)
+                                                    .build()
+                                    )
+                                    .craftRemainder(MItems.DISH.get())
+                    ));
+    public static final RegistryObject<Item> FIRED_SOYBEAN_SCUM_ROL =
+            ITEMS.register(
+                    //直接获取方块的注册名
+                    ModBlocks.FIRED_SOYBEAN_SCUM_ROL.getId().getPath(),
+                    ()-> new BlockItem(
+                            ModBlocks.FIRED_SOYBEAN_SCUM_ROL.get(),
+                            //设置属性：最大堆叠64
+                            new Item.Properties()
+                                    .stacksTo(16)
+                                    .food(
+                                            new FoodProperties.Builder()
+                                                    .nutrition(11)
+                                                    .saturationMod(0.6F)
                                                     .build()
                                     )
                                     .craftRemainder(MItems.DISH.get())
