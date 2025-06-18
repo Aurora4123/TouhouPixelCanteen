@@ -6,13 +6,11 @@ import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
-import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.BowlFoodItem;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Items;
+import net.minecraft.world.item.*;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+
 
 public class MItems {
     //创建注册机，create中传入要注册的物品类型和modid
@@ -83,6 +81,10 @@ public class MItems {
                                   )
                   )
           );
+    //是的，植物，辣椒
+    public static final RegistryObject<Item> CHILI_PEPPER_SEED =
+            ITEMS.register("chili_pepper_seed",
+                    () -> new ItemNameBlockItem(ModBlocks.CHILI_PEPPER_BLOCK.get(), basicItem()));
     //蛋液
     public static final RegistryObject<Item> EGG_WASH =
             ITEMS.register(
@@ -422,4 +424,7 @@ public class MItems {
 //                                    )
 //                    )
 //            )
+    public static Item.Properties basicItem() {
+    return new Item.Properties();
+    }
 }

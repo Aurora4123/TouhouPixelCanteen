@@ -35,6 +35,7 @@ public class Tabs {
                                 //请在此处添加已注册的菜品
                                 //output.accept(/.../);
                                 //output.accept(MItems.POTATO_AND_CARROT.get());
+                                output.accept(MItems.CHILI_PEPPER_SEED.get());
                                 output.accept(MItems.EGG_WASH.get());
                                 output.accept(MItems.EGGSHELL.get());
                                 output.accept(MItems.BOILED_EGG.get());
