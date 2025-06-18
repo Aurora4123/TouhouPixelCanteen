@@ -1,0 +1,23 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "tag": "forge:raw_pork"
+    },
+    {
+      "item": "youkaishomecoming:soy_sauce_bottle"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "item": "touhoupixelcanteen:dongpo_pork"
+  },
+  "container": {
+    "item": "touhoupixelcanteen:dish"
+  },
+
+  "cookingtime": 150
+}
