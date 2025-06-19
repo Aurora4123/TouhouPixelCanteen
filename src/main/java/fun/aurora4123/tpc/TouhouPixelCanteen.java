@@ -33,6 +33,7 @@ public class TouhouPixelCanteen
         //注册创造模式物品栏到总线
         Tabs.register(modEventBus);
 
+
         //ImproperUIAPI.init(TouhouPixelCanteen.MODID, TouhouPixelCanteen.class,
         //      "1.ui");
         initGui(TouhouPixelCanteen.class, "assets/touhoupixelcanteen/improperui/test.ui","1.ui");
