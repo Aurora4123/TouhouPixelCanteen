@@ -1,11 +1,9 @@
 package fun.aurora4123.tpc;
 
-import com.tterrag.registrate.Registrate;
-import com.tterrag.registrate.builders.FluidBuilder;
-import com.tterrag.registrate.util.entry.FluidEntry;
+
 import fun.aurora4123.tpc.initial.ModBlocks;
 import fun.aurora4123.tpc.initial.Tabs;
-import fun.aurora4123.tpc.initial.fluids.Fluids;
+
 import fun.aurora4123.tpc.initial.items.MItems;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -18,7 +16,7 @@ public class TouhouPixelCanteen
 {
     // Define mod id in a common place for everything to reference
     public static final String MODID = "touhoupixelcanteen";
-    public static final Registrate REGISTRATE = Registrate.create("touhoupixelcanteen");
+//    public static final Registrate REGISTRATE = Registrate.create("touhoupixelcanteen");
 
 
 
@@ -37,7 +35,7 @@ public class TouhouPixelCanteen
         //注册创造模式物品栏到总线
         Tabs.register(modEventBus);
         //注册流体
-        Fluids.register();
+//        Fluids.register();
 
         //ImproperUIAPI.init(TouhouPixelCanteen.MODID, TouhouPixelCanteen.class,
         //      "1.ui");
