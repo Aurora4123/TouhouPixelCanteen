@@ -1,7 +1,7 @@
 {
-  "parent": "farmersdelight:block/crop_cross",
+  "parent": "touhoupixelcanteen:block/crop_cross",
   "render_type": "minecraft:cutout",
   "textures": {
-    "cross": "touhoupixelcanteen:block/chili_pepper_block_stage1"
+    "cross": "touhoupixelcanteen:block/chili_pepper_seed_stage1"
   }
 }
