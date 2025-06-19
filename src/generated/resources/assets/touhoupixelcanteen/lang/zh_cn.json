@@ -74,6 +74,10 @@
   "tooltip.minecraft.pufferfish": "高级水产品，但体内含毒素，需小心处理。",
   "tooltip.minecraft.honey_bottle": "能从树上蜂巢采到的野生蜂蜜，较为常见。",
   "tooltip.minecraft.salmon": "一种高度洄游海鱼，但在幻想乡的河流湖泊可见。有点儿珍贵。",
-  "tooltip.minecraft.mushroom": "从魔法森林采回来的品相良好的蘑菇，在另外一个世界它无法人工种植，非常珍贵。"
+  "tooltip.minecraft.mushroom": "从魔法森林采回来的品相良好的蘑菇，在另外一个世界它无法人工种植，非常珍贵。",
 
+  "tag.touhoupixelcanteen.sweet": "+甜\n",
+  "tag.touhoupixelcanteen.cold": "+生冷\n",
+  "tag.touhoupixelcanteen.hot": "+热\n",
+  "tag.touhoupixelcanteen.vegetables": "+蔬菜\n"
 }
