@@ -3,7 +3,6 @@ package fun.aurora4123.tpc;
 
 import fun.aurora4123.tpc.initial.ModBlocks;
 import fun.aurora4123.tpc.initial.Tabs;
-
 import fun.aurora4123.tpc.initial.items.MItems;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -16,7 +15,6 @@ public class TouhouPixelCanteen
 {
     // Define mod id in a common place for everything to reference
     public static final String MODID = "touhoupixelcanteen";
-//    public static final Registrate REGISTRATE = Registrate.create("touhoupixelcanteen");
 
 
 
@@ -34,8 +32,7 @@ public class TouhouPixelCanteen
         ModBlocks.BLOCKS.register(modEventBus);
         //注册创造模式物品栏到总线
         Tabs.register(modEventBus);
-        //注册流体
-//        Fluids.register();
+
 
         //ImproperUIAPI.init(TouhouPixelCanteen.MODID, TouhouPixelCanteen.class,
         //      "1.ui");

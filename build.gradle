@@ -8,9 +8,13 @@ plugins {
     id 'org.spongepowered.mixin' version '0.7.+'
 }
 
+
 version = mod_version
 group = mod_group_id
 repositories{
+    flatDir {
+        dirs 'libs'
+    }
     maven {
         url "https://cursemaven.com"
         content { includeGroup "curse.maven" }
@@ -34,6 +38,7 @@ minecraft {
     accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')
     copyIdeResources = true
 
+
     // When true, this property will add the folder name of all declared run configurations to generated IDE run configurations.
     // The folder name can be set on a run configuration using the "folderName" property.
     // By default, the folder name of a run configuration is the name of the Gradle project containing it.
@@ -50,6 +55,9 @@ minecraft {
     // Default run configurations.
     // These can be tweaked, removed, or duplicated as needed.
     runs {
+        client {
+            property 'forge.disableOptionalModuleValidation', 'true'
+        }
         // applies to all the run configs below
         configureEach {
             workingDirectory project.file('run')
@@ -131,6 +139,7 @@ dependencies {
     }
     implementation fg.deobf("curse.maven:architectury-api-419699:5137938")
 }
+
 
 
 // This block of code expands all declared replace properties in the specified resource targets.
