@@ -6,13 +6,11 @@ import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
-import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.BowlFoodItem;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Items;
+import net.minecraft.world.item.*;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+
 
 public class MItems {
     //创建注册机，create中传入要注册的物品类型和modid
@@ -83,6 +81,10 @@ public class MItems {
                                   )
                   )
           );
+    //是的，植物，辣椒
+    public static final RegistryObject<Item> CHILI_PEPPER_SEED =
+            ITEMS.register("chili_pepper_seed",
+                    () -> new ItemNameBlockItem(ModBlocks.CHILI_PEPPER_BLOCK.get(), basicItem()));
     //蛋液
     public static final RegistryObject<Item> EGG_WASH =
             ITEMS.register(
@@ -305,6 +307,23 @@ public class MItems {
                                     )
                                     .craftRemainder(Items.BOWL)
                     ));
+    public static final RegistryObject<Item> PUMPKIN_CONGEE =
+            ITEMS.register(
+                    //直接获取方块的注册名
+                    ModBlocks.PUMPKIN_CONGEE.getId().getPath(),
+                    ()-> new BlockItem(
+                            ModBlocks.PUMPKIN_CONGEE.get(),
+                            //设置属性：最大堆叠64
+                            new Item.Properties()
+                                    .stacksTo(16)
+                                    .food(
+                                            new FoodProperties.Builder()
+                                                    .nutrition(9)
+                                                    .saturationMod(0.7F)
+                                                    .build()
+                                    )
+                                    .craftRemainder(Items.BOWL)
+                    ));
     //玉子烧
     public static final RegistryObject<Item> TAMAGO =
             ITEMS.register(
@@ -363,6 +382,23 @@ public class MItems {
                                     )
                                     .craftRemainder(MItems.DISH.get())
                     ));
+    public static final RegistryObject<Item> FIRED_SOYBEAN_SCUM_ROL =
+            ITEMS.register(
+                    //直接获取方块的注册名
+                    ModBlocks.FIRED_SOYBEAN_SCUM_ROL.getId().getPath(),
+                    ()-> new BlockItem(
+                            ModBlocks.FIRED_SOYBEAN_SCUM_ROL.get(),
+                            //设置属性：最大堆叠64
+                            new Item.Properties()
+                                    .stacksTo(16)
+                                    .food(
+                                            new FoodProperties.Builder()
+                                                    .nutrition(11)
+                                                    .saturationMod(0.6F)
+                                                    .build()
+                                    )
+                                    .craftRemainder(MItems.DISH.get())
+                    ));
     //蛋壳
     public static final RegistryObject<Item> EGGSHELL =
             ITEMS.register(
@@ -388,4 +424,7 @@ public class MItems {
 //                                    )
 //                    )
 //            )
+    public static Item.Properties basicItem() {
+    return new Item.Properties();
+    }
 }
