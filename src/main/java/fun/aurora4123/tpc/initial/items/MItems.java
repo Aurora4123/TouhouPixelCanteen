@@ -199,6 +199,22 @@ public class MItems {
                                     )
                     )
             );
+    //辣椒喵（呜呜呜“被超级邪恶名字还特别长的猫娘大王压榨EV”半夜被“不邪恶超级好名字还特别长的猫娘大王”压榨了，呜呜呜）
+    public static final RegistryObject<Item> CHILI_PEPPER =
+            ITEMS.register(
+                    "chili_pepper",
+                    () -> new Item(
+                            new Item.Properties()
+                                    .food(
+                                            new FoodProperties.Builder()
+                                                    .nutrition(1)
+                                                    .saturationMod(0.1F)
+                                                    .fast()
+                                                    .build()
+
+                                    )
+                    )
+            );
     //第一份喜晋升的可放置食物
     public static final RegistryObject<Item> EGG_CUSTARD =
             ITEMS.register(

@@ -23,6 +23,7 @@
   "item.touhoupixelcanteen.melon_flesh": "<未翻译>西瓜瓤",
   "item.touhoupixelcanteen.melon_rind": "<未翻译>西瓜皮",
   "item.touhoupixelcanteen.maltose": "<未翻译>麦芽糖",
+  "item.touhoupixelcanteen.chili_pepper": "<未翻译>辣椒",
   "item.touhoupixelcanteen.boilsh_egg_peeled": "無殼烹卵",
   "item.touhoupixelcanteen.boilsh_egg_peeled_half": "分半無殼烹卵",
   "key.category.touhoupixelcanteeen.gui": "東方體素食堂：检试",
@@ -47,7 +48,7 @@
   "tooltip.touhoupixelcanteen.rice_congee": "<未翻译>一份用山泉水煮的粥，绵绸清甜",
   "tooltip.touhoupixelcanteen.tamago": "<未翻译>一份居酒屋内常见的下酒菜，滑嫩的鲜蛋与恰到好处的火候成就了这道美味。",
   "tooltip.touhoupixelcanteen.westlake_fish": "<未翻译>西湖醋鱼源于南宋京都临安，也就是现在的杭州，但是在幻想乡的反响并不好。\n1956年浙江省36个杭州名菜，2018年浙江十大经典名菜。\n你知道为什么西湖里有这么多鱼吗？——因为西湖醋鱼没法下口，直接倒进湖里喂鱼了。",
-
+  "tooltip.touhoupixelcanteen.chili_pepper": "<未翻译>刺激食客味蕾的食物，用奇妙的种子种植",
   "tooltip.farmersdelight.tomato": "<未翻译>颜色鲜艳的浆果，曾经还因为太鲜艳被视为“狐狸的果实”，觉得它具有剧毒，所以只用来观赏。在发现可以食用以后就开始大面积种植了。",
   "tooltip.farmersdelight.cooking_pot": "<未翻译>一口可以容纳万物的煮锅。会陪伴你整个农夫生涯\ntips:如果您破坏厨锅，那么厨锅内的物品不会掉落，可以保留。",
   "tooltip.farmersdelight.onion": "<未翻译>人里农田产的洋葱，较为常见。",
