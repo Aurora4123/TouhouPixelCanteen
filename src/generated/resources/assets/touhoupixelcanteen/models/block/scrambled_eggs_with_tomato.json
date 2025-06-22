@@ -78,8 +78,8 @@
 		},
 		{
 			"name": "菜品主体",
-			"from": [4, 1, 4],
-			"to": [12, 2, 12],
+			"from": [4, 0.5, 4],
+			"to": [12, 1.5, 12],
 			"rotation": {"angle": 0, "axis": "y", "origin": [4, 1, 4]},
 			"faces": {
 				"north": {"uv": [0, 0, 8, 1], "texture": "#missing"},
@@ -92,8 +92,8 @@
 		},
 		{
 			"name": "菜品组件1",
-			"from": [5, 2, 8],
-			"to": [7, 3, 10],
+			"from": [5, 1.5, 8],
+			"to": [7, 2.5, 10],
 			"rotation": {"angle": 0, "axis": "y", "origin": [5, 2, 8]},
 			"faces": {
 				"north": {"uv": [2, 0, 4, 1], "texture": "#1"},
@@ -106,9 +106,37 @@
 		},
 		{
 			"name": "菜品组件2",
-			"from": [9, 2, 6],
-			"to": [10, 3, 8],
+			"from": [9, 1.25, 6],
+			"to": [10, 2.25, 8],
 			"rotation": {"angle": 0, "axis": "y", "origin": [9, 2, 6]},
+			"faces": {
+				"north": {"uv": [0, 0, 1, 1], "texture": "#1"},
+				"east": {"uv": [0, 0, 2, 1], "texture": "#1"},
+				"south": {"uv": [0, 0, 1, 1], "texture": "#1"},
+				"west": {"uv": [0, 0, 2, 1], "texture": "#1"},
+				"up": {"uv": [0, 0, 1, 2], "texture": "#1"},
+				"down": {"uv": [0, 0, 1, 2], "texture": "#missing"}
+			}
+		},
+		{
+			"name": "菜品组件3",
+			"from": [9, 1, 10],
+			"to": [11, 2, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 2, 11]},
+			"faces": {
+				"north": {"uv": [0, 0, 2, 1], "texture": "#1"},
+				"east": {"uv": [0, 0, 1, 1], "texture": "#1"},
+				"south": {"uv": [0, 0, 2, 1], "texture": "#1"},
+				"west": {"uv": [0, 0, 1, 1], "texture": "#1"},
+				"up": {"uv": [0, 0, 1, 2], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [0, 0, 1, 2], "rotation": 90, "texture": "#missing"}
+			}
+		},
+		{
+			"name": "菜品组件3",
+			"from": [5, 1, 5],
+			"to": [6, 2, 7],
+			"rotation": {"angle": 45, "axis": "y", "origin": [5, 2, 5]},
 			"faces": {
 				"north": {"uv": [0, 0, 1, 1], "texture": "#1"},
 				"east": {"uv": [0, 0, 2, 1], "texture": "#1"},
