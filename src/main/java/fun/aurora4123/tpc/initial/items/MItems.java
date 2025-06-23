@@ -306,6 +306,27 @@ public class MItems {
                                     )
                                     .craftRemainder(Items.BOWL)
                     ));
+    //史莱姆滑蘑菇
+    public static final RegistryObject<Item> SLIME_SWIRLED_MUSHROOMS
+            =
+            ITEMS.register(
+                    //直接获取方块的注册名
+                    ModBlocks.SLIME_SWIRLED_MUSHROOMS.getId().getPath(),
+                    ()-> new BlockItem(
+                            ModBlocks.SLIME_SWIRLED_MUSHROOMS.get(),
+                            //设置属性：最大堆叠64
+                            new Item.Properties()
+                                    .stacksTo(16)
+                                    .food(
+                                            new FoodProperties.Builder()
+                                                    .nutrition(12)
+                                                    .saturationMod(0.65F)
+                                                    .effect(() -> new MobEffectInstance(
+                                                            MobEffects.MOVEMENT_SPEED, 150, 2), 1.0F)
+                                                    .build()
+                                    )
+                                    .craftRemainder(Items.BOWL)
+                    ));
     public static final RegistryObject<Item> RICE_CONGEE =
             ITEMS.register(
                     //直接获取方块的注册名

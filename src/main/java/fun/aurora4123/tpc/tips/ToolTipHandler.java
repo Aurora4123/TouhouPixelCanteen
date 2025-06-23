@@ -100,6 +100,9 @@ public class ToolTipHandler {
         if (event.getItemStack().getItem() == MItems.PICKLE_CONGEE.get()) {
             event.getToolTip().add(Component.translatable("tooltip.touhoupixelcanteen.pickle_congee"));
         }
+        if (event.getItemStack().getItem() == MItems.SLIME_SWIRLED_MUSHROOMS.get()) {
+            event.getToolTip().add(Component.translatable("tooltip.touhoupixelcanteen.slime_swirled_mushrooms"));
+        }
         if (event.getItemStack().getItem() == MItems.RICE_CONGEE.get()) {
             event.getToolTip().add(Component.translatable("tooltip.touhoupixelcanteen.rice_congee"));
         }

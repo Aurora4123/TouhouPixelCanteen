@@ -34,6 +34,7 @@ public class ModBlocks {
     public static RegistryObject<Block> OYAKODON = BLOCKS.register("oyakodon", UniversalBowl::new);
     public static RegistryObject<Block> SEAWEED_AND_EGG_SOUP = BLOCKS.register("seaweed_and_egg_soup", UniversalBowl::new);
     public static RegistryObject<Block> PICKLE_CONGEE = BLOCKS.register("pickle_congee", UniversalBowl::new);
+    public static RegistryObject<Block> SLIME_SWIRLED_MUSHROOMS = BLOCKS.register("slime_swirled_mushrooms", UniversalBowl::new);
     public static RegistryObject<Block> RICE_CONGEE = BLOCKS.register("rice_congee", UniversalBowl::new);
     public static RegistryObject<Block> PUMPKIN_CONGEE = BLOCKS.register("pumpkin_congee", UniversalBowl::new);
     public static RegistryObject<Block> TAMAGO = BLOCKS.register("tamago", UniversalDish::new);
