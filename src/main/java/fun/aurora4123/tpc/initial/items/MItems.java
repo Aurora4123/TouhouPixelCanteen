@@ -163,8 +163,8 @@ public class MItems {
                             new Item.Properties()
                                     .food(
                                             new FoodProperties.Builder()
-                                                    .nutrition(1)
-                                                    .saturationMod(0.2F)
+                                                    .nutrition(2)
+                                                    .saturationMod(0.5F)
                                                     .build()
                                     )
                     )
