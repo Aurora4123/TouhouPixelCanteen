@@ -1,9 +1,15 @@
 package fun.aurora4123.tpc.initial;
 
+import dev.architectury.core.block.ArchitecturyLiquidBlock;
+import dev.architectury.registry.registries.RegistrySupplier;
 import fun.aurora4123.tpc.TouhouPixelCanteen;
+import fun.aurora4123.tpc.initial.fluid.Fluids;
 import it.unimi.dsi.fastutil.chars.CharImmutableList;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.LiquidBlock;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -41,4 +47,13 @@ public class ModBlocks {
     public static RegistryObject<Block> WESTLAKE_FISH = BLOCKS.register("westlake_fish", UniversalDish::new);
     public static RegistryObject<Block> DONGPO_PORK = BLOCKS.register("dongpo_pork", UniversalDish::new);
     public static RegistryObject<Block> FIRED_SOYBEAN_SCUM_ROL = BLOCKS.register("fired_soybean_scum_rol", UniversalDish::new);
+
+    public static final RegistryObject<LiquidBlock> VINEGAR_BLOCK = BLOCKS.register("vinegar",
+            () -> new LiquidBlock(Fluids.VINEGAR_SOURCE::get,
+                    BlockBehaviour.Properties.copy(Blocks.WATER)
+                            .noCollission()
+                            .strength(100.0F)
+                            .noLootTable()
+                            .sound(SoundType.SLIME_BLOCK)
+            ));
 }

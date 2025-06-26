@@ -85,6 +85,10 @@ public class MItems {
     public static final RegistryObject<Item> CHILI_PEPPER_SEED =
             ITEMS.register("chili_pepper_seed",
                     () -> new ItemNameBlockItem(ModBlocks.CHILI_PEPPER_BLOCK.get(), basicItem()));
+    //醋桶
+    public static final RegistryObject<Item> VINEGAR_BUCKET =
+            ITEMS.register("vinegar_bucket", () -> new Item(new Item.Properties().stacksTo(1)));
+
     //蛋液
     public static final RegistryObject<Item> EGG_WASH =
             ITEMS.register(

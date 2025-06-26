@@ -3,6 +3,8 @@ package fun.aurora4123.tpc;
 
 import fun.aurora4123.tpc.initial.ModBlocks;
 import fun.aurora4123.tpc.initial.Tabs;
+import fun.aurora4123.tpc.initial.fluid.FluidTypes;
+import fun.aurora4123.tpc.initial.fluid.Fluids;
 import fun.aurora4123.tpc.initial.items.MItems;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -30,9 +32,12 @@ public class TouhouPixelCanteen
         MItems.ITEMS.register(modEventBus);
         //所有方块注册到总线
         ModBlocks.BLOCKS.register(modEventBus);
+        //流体属性
+        FluidTypes.FLUID_TYPES.register(modEventBus);
+        //注册流体
+        Fluids.FLUIDS.register(modEventBus);
         //注册创造模式物品栏到总线
         Tabs.register(modEventBus);
-
 
         //ImproperUIAPI.init(TouhouPixelCanteen.MODID, TouhouPixelCanteen.class,
         //      "1.ui");
