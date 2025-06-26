@@ -79,6 +79,9 @@ public class ToolTipHandler {
         if (event.getItemStack().getItem() == MItems.MALTOSE.get()) {
             event.getToolTip().add(Component.translatable("tooltip.touhoupixelcanteen.maltose"));
         }
+        if (event.getItemStack().getItem() == MItems.CHILI_PEPPER.get()) {
+            event.getToolTip().add(Component.translatable("tooltip.touhoupixelcanteen.chili_pepper"));
+        }
         if (event.getItemStack().getItem() == MItems.EGG_CUSTARD.get()) {
             event.getToolTip().add(Component.translatable("tooltip.touhoupixelcanteen.egg_custard"));
         }
@@ -96,6 +99,9 @@ public class ToolTipHandler {
         }
         if (event.getItemStack().getItem() == MItems.PICKLE_CONGEE.get()) {
             event.getToolTip().add(Component.translatable("tooltip.touhoupixelcanteen.pickle_congee"));
+        }
+        if (event.getItemStack().getItem() == MItems.SLIME_SWIRLED_MUSHROOMS.get()) {
+            event.getToolTip().add(Component.translatable("tooltip.touhoupixelcanteen.slime_swirled_mushrooms"));
         }
         if (event.getItemStack().getItem() == MItems.RICE_CONGEE.get()) {
             event.getToolTip().add(Component.translatable("tooltip.touhoupixelcanteen.rice_congee"));

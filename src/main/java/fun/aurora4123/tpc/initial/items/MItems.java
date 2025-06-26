@@ -85,6 +85,10 @@ public class MItems {
     public static final RegistryObject<Item> CHILI_PEPPER_SEED =
             ITEMS.register("chili_pepper_seed",
                     () -> new ItemNameBlockItem(ModBlocks.CHILI_PEPPER_BLOCK.get(), basicItem()));
+    //醋桶
+    public static final RegistryObject<Item> VINEGAR_BUCKET =
+            ITEMS.register("vinegar_bucket", () -> new Item(new Item.Properties().stacksTo(1)));
+
     //蛋液
     public static final RegistryObject<Item> EGG_WASH =
             ITEMS.register(
@@ -163,8 +167,8 @@ public class MItems {
                             new Item.Properties()
                                     .food(
                                             new FoodProperties.Builder()
-                                                    .nutrition(1)
-                                                    .saturationMod(0.2F)
+                                                    .nutrition(2)
+                                                    .saturationMod(0.5F)
                                                     .build()
                                     )
                     )
@@ -193,6 +197,22 @@ public class MItems {
                                             new FoodProperties.Builder()
                                                     .nutrition(4)
                                                     .saturationMod(0.4F)
+                                                    .fast()
+                                                    .build()
+
+                                    )
+                    )
+            );
+    //辣椒喵（呜呜呜“被超级邪恶名字还特别长的猫娘大王压榨EV”半夜被“不邪恶超级好名字还特别长的猫娘大王”压榨了，呜呜呜）
+    public static final RegistryObject<Item> CHILI_PEPPER =
+            ITEMS.register(
+                    "chili_pepper",
+                    () -> new Item(
+                            new Item.Properties()
+                                    .food(
+                                            new FoodProperties.Builder()
+                                                    .nutrition(1)
+                                                    .saturationMod(0.1F)
                                                     .fast()
                                                     .build()
 
@@ -286,6 +306,27 @@ public class MItems {
                                             new FoodProperties.Builder()
                                                     .nutrition(11)
                                                     .saturationMod(0.55F)
+                                                    .build()
+                                    )
+                                    .craftRemainder(Items.BOWL)
+                    ));
+    //史莱姆滑蘑菇
+    public static final RegistryObject<Item> SLIME_SWIRLED_MUSHROOMS
+            =
+            ITEMS.register(
+                    //直接获取方块的注册名
+                    ModBlocks.SLIME_SWIRLED_MUSHROOMS.getId().getPath(),
+                    ()-> new BlockItem(
+                            ModBlocks.SLIME_SWIRLED_MUSHROOMS.get(),
+                            //设置属性：最大堆叠64
+                            new Item.Properties()
+                                    .stacksTo(16)
+                                    .food(
+                                            new FoodProperties.Builder()
+                                                    .nutrition(12)
+                                                    .saturationMod(0.65F)
+                                                    .effect(() -> new MobEffectInstance(
+                                                            MobEffects.MOVEMENT_SPEED, 150, 2), 1.0F)
                                                     .build()
                                     )
                                     .craftRemainder(Items.BOWL)

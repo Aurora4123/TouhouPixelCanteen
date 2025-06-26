@@ -132,10 +132,9 @@ dependencies {
     implementation fg.deobf("curse.maven:farmers-delight-398521:6154802")
     implementation fg.deobf("curse.maven:jei-238222:6075247")
     implementation fg.deobf("curse.maven:appleskin-248787:4770828")
-    implementation fg.deobf('curse.maven:youkais-homecoming-957437:6631906')
+    implementation fg.deobf('curse.maven:youkais-homecoming-957437:6679447')
     implementation fg.deobf('curse.maven:improperui-forged-1209983:6362682') {
-        transitive = false
-        jarJar.ranged(it, "[0.0.4.0,0.0.5.0)")
+        jarJar.ranged(it, "[0.0.5.0)")
     }
     implementation fg.deobf("curse.maven:architectury-api-419699:5137938")
 }

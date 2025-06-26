@@ -45,12 +45,14 @@ public class Tabs {
                                 output.accept(MItems.MELON_FLESH.get());
                                 output.accept(MItems.MELON_RIND.get());
                                 output.accept(MItems.MALTOSE.get());
+                                output.accept(MItems.CHILI_PEPPER.get());
                                 output.accept(MItems.EGG_CUSTARD.get());
                                 output.accept(MItems.RICE_WITH_EGG.get());
                                 output.accept(MItems.OYAKODON.get());
                                 output.accept(MItems.SEAWEED_AND_EGG_SOUP.get());
                                 output.accept(MItems.RICE_CONGEE.get());
                                 output.accept(MItems.PICKLE_CONGEE.get());
+                                output.accept(MItems.SLIME_SWIRLED_MUSHROOMS.get());
                                 output.accept(MItems.PUMPKIN_CONGEE.get());
                                 output.accept(MItems.SCRAMBLED_EGGS_WITH_TOMATO.get());
                                 output.accept(MItems.TAMAGO.get());
